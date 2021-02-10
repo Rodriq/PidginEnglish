@@ -140,7 +140,7 @@ def save():
         print("res", "*************")
         #except:
             #return ("error")
-        return render_template("index.html", text=val, user=user)
+        return render_template("index.html", text=val, user=str(user))
         # return jsonify(new_translate)
 
 
