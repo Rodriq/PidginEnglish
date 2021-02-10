@@ -17,7 +17,14 @@
             </tr>
         </thead>
         <tbody id="displayTranslate">
-
+            {% for tran in translates %}
+            <tr>
+                <td scope="row">{{loop.index}}</td>
+                <td>{{tran.english}}</td>
+                <td>{{tran.pidgin}}</td>
+                <td>{{tran.user}}</td>
+            </tr>
+            {% endfor %}
         </tbody>
     </table>
 </div>

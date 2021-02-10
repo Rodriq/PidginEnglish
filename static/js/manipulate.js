@@ -1,10 +1,15 @@
 var savedName = localStorage.getItem("savedName")
 console.log(savedName, savedName)
 if (savedName) {
-    $("#userInfo").hide()
+    $("#user").val(localStorage.getItem("savedName"))
 }
 $(document).ready(function() {
     console.log("fffff")
+
+    $("#user").change(function() {
+        console.log($("#user").val())
+        localStorage.setItem("savedName", $("#user").val())
+    })
 
 
     // Your web app's Firebase configuration
@@ -32,21 +37,21 @@ $(document).ready(function() {
     // };
 
 
-    var firebaseConfig = {
-        apiKey: "AIzaSyAzEUsaGX3D-vCEf3ebZHUToTQQwC8t1YQ",
-        authDomain: "pidginenglish-723a4.firebaseapp.com",
-        projectId: "pidginenglish-723a4",
-        storageBucket: "pidginenglish-723a4.appspot.com",
-        messagingSenderId: "123668323740",
-        appId: "1:123668323740:web:f51f875cdd8667b3d77c59",
-        measurementId: "G-3J6D2CNC45"
-    };
+    // var firebaseConfig = {
+    //     apiKey: "AIzaSyAzEUsaGX3D-vCEf3ebZHUToTQQwC8t1YQ",
+    //     authDomain: "pidginenglish-723a4.firebaseapp.com",
+    //     projectId: "pidginenglish-723a4",
+    //     storageBucket: "pidginenglish-723a4.appspot.com",
+    //     messagingSenderId: "123668323740",
+    //     appId: "1:123668323740:web:f51f875cdd8667b3d77c59",
+    //     measurementId: "G-3J6D2CNC45"
+    // };
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
+    // // Initialize Firebase
+    // firebase.initializeApp(firebaseConfig);
+    // firebase.analytics();
 
-    var firestore = firebase.firestore();
+    // var firestore = firebase.firestore();
 
     $("#nextWord").click((e) => {
         e.preventDefault();
@@ -92,43 +97,43 @@ $(document).ready(function() {
     var regUsers = []
 
 
-    if ($("#displayTranslate")) {
-        firestore.collection("translate1").get().then((querySnapshot) => {
-            querySnapshot.forEach((doc) => {
-                console.log(JSON.stringify(doc.data()), "00000000000000")
-                allUsers.push(JSON.stringify(doc.data().newTranslate) || JSON.stringify(doc.data()))
-            })
-            console.log(allUsers, "all users");
+    // if ($("#displayTranslate").is(":visible")) {
+    //     firestore.collection("translate1").get().then((querySnapshot) => {
+    //         querySnapshot.forEach((doc) => {
+    //             console.log(JSON.stringify(doc.data()), "00000000000000")
+    //             allUsers.push(JSON.stringify(doc.data().newTranslate) || JSON.stringify(doc.data()))
+    //         })
+    //         console.log(allUsers, "all users");
 
-            allUsers.forEach(el => {
-                console.log(JSON.parse(el), "88888888888888")
-                regUsers.push(JSON.parse(el))
-            })
+    //         allUsers.forEach(el => {
+    //             console.log(JSON.parse(el), "88888888888888")
+    //             regUsers.push(JSON.parse(el))
+    //         })
 
-            console.log(regUsers, "-----------s")
-            regUsers.sort((a, b) => {
-                return a.date - b.date
-            });
+    //         console.log(regUsers, "-----------s")
+    //         regUsers.sort((a, b) => {
+    //             return a.date - b.date
+    //         });
 
-            var i = 1
-            regUsers.forEach(el2 => {
-                $("#displayTranslate").append(
-                    `<tr>
-                    <td scope="row">${i}</td>
-                    <td>${el2.english}</td>
-                    <td>${el2.pidgin}</td>
-                    <td>${el2.user.name || el2.user.ip.substring(0, 6) + "****"}</td>
-                    </tr>`
-                );
-                i = i + 1
-            })
-
-
-        })
+    //         var i = 1
+    //         regUsers.forEach(el2 => {
+    //             $("#displayTranslate").append(
+    //                 `<tr>
+    //                 <td scope="row">${i}</td>
+    //                 <td>${el2.english}</td>
+    //                 <td>${el2.pidgin}</td>
+    //                 <td>${el2.user.name || el2.user.ip.substring(0, 6) + "****"}</td>
+    //                 </tr>`
+    //             );
+    //             i = i + 1
+    //         })
 
 
+    // })
 
-    }
+
+
+    // }
 
     $("#share").attr('href', `whatsapp://send?text=http://pidgin-english.tech`);
 })

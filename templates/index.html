@@ -19,15 +19,14 @@
 
 </div>
 
-<form action="{{url_for('save')}}">
+<form action="{{url_for('save')}}" method="post">
     <input type="hidden" name="from" id="from" value="{{ text }}" id="name-position">
-    <input type="hidden" name="user" id="ip" value="{{ ipAdress }}">
-     {% if user %}
+    <input type="hidden" name="ip" id="ip" value="{{ ipAdress }}"> {% if user %}
     <input type="hidden" name="user" id="user" value="{{ user }}"> {% else %}
     <div class="form-group row" id="userInfo">
         <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Name <small
                 class="text-muted">(Required Once)</small></label>
-        <div class="col-sm-10" >
+        <div class="col-sm-10">
             <input type="text" class="form-control form-control-sm" id="user" name="user" placeholder="Enter Nick Name">
             <small class="text-primary">You will be acknowleged for your Contributions</small>
         </div>
@@ -36,9 +35,12 @@
     <div class="form-group">
         <label for="exampleFormControlTextarea1">Enter Translation</label>
         <textarea class="form-control" id="translated" name="to" rows="3"></textarea>
-    <small class="text-warning">Please respect punctuation and <strong>NO</strong> use of shorthand.</small>
+        <small class="text-warning">Please respect punctuation and <strong>NO</strong> use of shorthand.</small>
     </div>
+    <button type="button" class="btn btn-sm btn-warning mb-1" id="nextWord">Skip</button> &nbsp; &nbsp;
+
+    <button type="submit" class="btn btn-lg btn-info">Next ></button>
 
 </form>
-<button type="button" class="btn btn-sm btn-warning mb-1" id="nextWord">Skip</button> &nbsp; &nbsp;
-<button type="button" class="btn btn-lg btn-info" id="submitWord">Next ></button> {% endblock %}
+<!-- <button type="button" class="btn btn-lg btn-info" id="submitWord">Next ></button>  -->
+{% endblock %}
