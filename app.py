@@ -132,16 +132,18 @@ def save():
         # }
         print(translate)
         val = next_text()
-        try:
+        db.session.add(translate)
+        db.session.commit()
+        # try:
             # res = ref.set(translate)
             # new_translate = Translate.insert_one(translate)
 
             # res = firebase.post("/translate", translate)
-            db.session.add(translate)
-            db.session.commit()
+            #db.session.add(translate)
+            #db.session.commit()
             print("res", "*************")
-        except:
-            return ("error")
+        #except:
+            #return ("error")
         return render_template("index.html", text=val, user=user)
         # return jsonify(new_translate)
 
