@@ -100,7 +100,6 @@ $(document).ready(function() {
             })
             console.log(allUsers, "all users");
 
-
             allUsers.forEach(el => {
                 console.log(JSON.parse(el), "88888888888888")
                 regUsers.push(JSON.parse(el))
