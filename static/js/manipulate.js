@@ -93,7 +93,7 @@ $(document).ready(function() {
 
 
     if ($("#displayTranslate")) {
-        firestore.collection("translate").get().then((querySnapshot) => {
+        firestore.collection("translate1").get().then((querySnapshot) => {
             querySnapshot.forEach((doc) => {
                 console.log(JSON.stringify(doc.data()), "00000000000000")
                 allUsers.push(JSON.stringify(doc.data().newTranslate) || JSON.stringify(doc.data()))
