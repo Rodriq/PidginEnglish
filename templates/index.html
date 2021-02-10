@@ -24,10 +24,10 @@
     <input type="hidden" name="user" id="ip" value="{{ ipAdress }}">
      {% if user %}
     <input type="hidden" name="user" id="user" value="{{ user }}"> {% else %}
-    <div class="form-group row">
+    <div class="form-group row" id="userInfo">
         <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Name <small
                 class="text-muted">(Required Once)</small></label>
-        <div class="col-sm-10" id="userInfo">
+        <div class="col-sm-10" >
             <input type="text" class="form-control form-control-sm" id="user" name="user" placeholder="Enter Nick Name">
             <small class="text-primary">You will be acknowleged for your Contributions</small>
         </div>
@@ -36,6 +36,7 @@
     <div class="form-group">
         <label for="exampleFormControlTextarea1">Enter Translation</label>
         <textarea class="form-control" id="translated" name="to" rows="3"></textarea>
+    <small class="text-warning">Please respect punctuation and <strong>NO</strong> use of shorthand.</small>
     </div>
 
 </form>

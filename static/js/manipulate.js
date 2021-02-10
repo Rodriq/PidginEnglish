@@ -5,6 +5,8 @@ if (savedName) {
 }
 $(document).ready(function() {
     console.log("fffff")
+
+    $("#share").attr('href', `whatsapp://send?text=${document.URL}`)
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     var firebaseConfig = {

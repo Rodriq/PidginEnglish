@@ -5,11 +5,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <title>Pidgin English | NLP</title>
+    <meta name="description" content="Translate languages to Pidgin">
+    <meta name="keywords" content="Pidgin, Translate, NLP">
+    <meta name="author" content="@Rodriiqq">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static', filename = 'images/icons/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static', filename = 'images/icons/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static', filename = 'images/icons/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{url_for('static', filename = 'images/icons/site.webmanifest')}}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{url_for('static', filename = 'css/bootstrap.css')}}" />
     <link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css')}}" />
-    <title>PidginEnglish</title>
 </head>
 
 <body>
@@ -19,7 +25,8 @@
         <a href="#about">About</a>
     </div> -->
 
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-end" id="nav1">
+    <image id="logoImage" src="{{url_for('static', filename = 'images/logo.svg')}}"></image>
         <li class="nav-item">
             <a class="nav-link active" href="{{ url_for('index') }}">Home</a>
         </li>
@@ -40,6 +47,21 @@
             <div class="col-sm col-2">
             </div>
         </div>
+    </div>
+
+    <div class="add position-sticky">
+        <footer>
+            <div class="copyright">
+                <p>&copy 2021 - Pidgin - English | <a style="text-decoration:none; color:rgb(245, 233, 210);" href="rodriq.me">Rodriiqq</a></p>
+            </div>
+            <div class="social">
+                <a id="support" href="mailto:support@pidgin-english.tech" class="support">Contact</a>
+                <a href="http://twitter.com/rodriiqq" class="tweet">t</a>
+                <a href="https://www.tiktok.com/@rodriiqq?lang=en" class="face">Tk</a>
+                <a href="http://instagram.com/rodriiqq.photography" class="linked">ig</a>
+
+            </div>
+        </footer>
     </div>
 
     <!-- Optional JavaScript -->
