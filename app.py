@@ -16,7 +16,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-client = pymongo.MongoClient(os.getenv("MONGO_URI"))
+# client = pymongo.MongoClient(os.getenv("MONGO_URI"))
 
 
 # db = client.test_database
@@ -24,13 +24,13 @@ client = pymongo.MongoClient(os.getenv("MONGO_URI"))
 
 # Translate = db.translate
 
-cred = credentials.Certificate(
-    "pidgin-english-firebase-adminsdk-q740s-8b0b1796f9.json")
-firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://pidgin-english-default-rtdb.firebaseio.com/'
-})
+# cred = credentials.Certificate(
+#     "pidgin-english-firebase-adminsdk-q740s-8b0b1796f9.json")
+# firebase_admin.initialize_app(cred, {
+#     'databaseURL': 'https://pidgin-english-default-rtdb.firebaseio.com/'
+# })
 
-ref = db.reference('translate/')
+# ref = db.reference('translate/')
 # pidgin_ref = ref.child('pidgin')
 
 input_sentences = []
@@ -53,6 +53,8 @@ def about():
     return render_template("pages/about.html", text=val)
 
 
+
+
 @app.route("/contact")
 def contact():
     val = next_text()
@@ -60,6 +62,11 @@ def contact():
     return render_template("pages/contact.html", text=val)
 
 
+@app.route("/translated", methods=['GET'])
+def translated():
+    val = next_text()
+    print(val, "---------")
+    return render_template("pages/translated.html", text=val)
 # @app.route("/")
 # def hello():
 #     post = {"author": "Mike", "text": "My first blog post!", "tags": [

@@ -176,7 +176,7 @@ body {
     
     #logoImage {
         float: left !important;
-        margin-left: -100px;
-        height: 60px;
-        width: auto;
+        /* margin-left: -100px; */
+        /* height: 60px;
+        width: auto; */
     }
