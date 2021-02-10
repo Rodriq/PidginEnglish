@@ -125,11 +125,7 @@ def save():
         to_statement = request.form['to']
         translate = Translate(user=user, english=from_statement,
                               pidgin=to_statement, ip=str(request.remote_addr), date=datetime.now().strftime("%d-%m-%Y"))
-        # translate = {
-        #     "user": user,
-        #     "english": from_statement,
-        #     "pidgin": to_statement
-        # }
+        
         print(translate)
         val = next_text()
         db.session.add(translate)
@@ -141,7 +137,7 @@ def save():
             # res = firebase.post("/translate", translate)
             #db.session.add(translate)
             #db.session.commit()
-            print("res", "*************")
+        print("res", "*************")
         #except:
             #return ("error")
         return render_template("index.html", text=val, user=user)
