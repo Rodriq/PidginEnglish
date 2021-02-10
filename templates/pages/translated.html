@@ -1,0 +1,25 @@
+{% extends "layouts/layouts.html" %} {% block content%}
+
+<h3>Translated</h3>
+<hr>
+
+<strong>List of Translated Sentences</strong>
+<br>
+<br>
+<div class="text-center container-fluid">
+    <table class="table table-hover">
+        <thead class="table-info">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">English</th>
+                <th scope="col">Pidgin</th>
+                <th scope="col">Person</th>
+            </tr>
+        </thead>
+        <tbody id="displayTranslate">
+
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
