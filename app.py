@@ -15,7 +15,7 @@ from datetime import datetime
 
 project_dir = os.path.dirname(os.path.abspath(__file__))
 database_file = "sqlite:///{}".format(
-    os.path.join(project_dir, "translate.db"))
+    os.path.join(project_dir, "translate_database.db"))
 
 
 load_dotenv()
