@@ -1,70 +1,23 @@
+from logging import error
 from flask import Flask, redirect, url_for, request, render_template, jsonify
 import os
 from flask.wrappers import Request
-import pymongo
+from pymongo import MongoClient
 from dotenv import load_dotenv
 import datetime
 import random
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-# import firebase_admin
-# from firebase_admin import credentials, db
-# from firebase import firebase
+client = MongoClient(
+    "mongodb+srv://user:Mypassword123@cluster0.w2btl.mongodb.net/translate_db?retryWrites=true&w=majority")
 
-
-project_dir = os.path.dirname(os.path.abspath(__file__))
-database_file = "sqlite:///{}".format(
-    os.path.join(project_dir, "translate_database.db"))
-
+db = client.get_database("translate_db")
+Translate = db.translate
 
 load_dotenv()
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = database_file
-
-db = SQLAlchemy(app)
-
-
-class Translate(db.Model):
-    id = db.Column('id', db.Integer, primary_key=True)
-    user = db.Column(db.String(100))
-    english = db.Column(db.String(50))
-    pidgin = db.Column(db.String(200))
-    date = db.Column(db.String(200))
-    ip = db.Column(db.String(10))
-
-
-def __init__(self, user, english, pidgin, date, ip):
-    self.user = user
-    self.english = english
-    self.pidgin = pidgin
-    self.date = date
-    self.ip = ip
-
-
-def __repr__(self):
-    return "<User: {}>".format(self.user)
-
-
-db.create_all()
-
-# client = pymongo.MongoClient(os.getenv("MONGO_URI"))
-
-
-# db = client.test_database
-# Post = db.post
-
-# Translate = db.translate
-
-# cred = credentials.Certificate(
-#     "pidgin-english-firebase-adminsdk-q740s-8b0b1796f9.json")
-# firebase_admin.initialize_app(cred, {
-#     'databaseURL': 'https://pidgin-english-default-rtdb.firebaseio.com/'
-# })
-
-# ref = db.reference('translate/')
-# pidgin_ref = ref.child('pidgin')
 
 input_sentences = []
 file_name = "static/words/english-only.txt"
@@ -96,15 +49,9 @@ def contact():
 @app.route("/translated", methods=['GET'])
 def translated():
     val = next_text()
-    trans = Translate.query.all()
+    trans = list(Translate.find())
     print(val, "---------")
     return render_template("pages/translated.html", text=val, translates=trans)
-# @app.route("/")
-# def hello():
-#     post = {"author": "Mike", "text": "My first blog post!", "tags": [
-#         "mongodb", "python", "pymongo"], "date": datetime.datetime.utcnow()}
-#     post_id = Post.insert_one(post).inserted_id
-#     # return ({"post": post, "id" : post_id})
 
 
 @app.route('/next', methods=['GET'])
@@ -122,25 +69,25 @@ def save():
         user = request.form['user']
         from_statement = request.form['from']
         to_statement = request.form['to']
-        translate = Translate(user=user, english=from_statement,
-                              pidgin=to_statement, ip=str(request.remote_addr), date=datetime.now().strftime("%d-%m-%Y"))
-
-        print(translate)
+        new_translate = {
+            "english": from_statement,
+            "pidgin": to_statement,
+            "date": datetime.now().strftime("%d-%m-%Y"),
+            "user": {
+                "name": user,
+                "ip": str(request.remote_addr)
+            },
+        }
+       
+        print(new_translate)
         val = next_text()
-        db.session.add(translate)
-        db.session.commit()
-        # try:
-        # res = ref.set(translate)
-        # new_translate = Translate.insert_one(translate)
-
-        # res = firebase.post("/translate", translate)
-        #db.session.add(translate)
-        #db.session.commit()
-        print("res", "*************")
-        #except:
-        #return ("error")
+        
+        try:
+            Translate.insert_one(new_translate)
+            print("res", "*************")
+        except:
+            return (error)
         return render_template("index.html", text=val, user=str(user))
-        # return jsonify(new_translate)
 
 
 def seperate_sentences():
