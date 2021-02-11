@@ -49,9 +49,10 @@ def contact():
 @app.route("/translated", methods=['GET'])
 def translated():
     val = next_text()
+    count_translate = Translate.count_documents({})
     trans = list(Translate.find())
     print(val, "---------")
-    return render_template("pages/translated.html", text=val, translates=trans)
+    return render_template("pages/translated.html", text=val, translates=trans, count=count_translate)
 
 
 @app.route('/next', methods=['GET'])
@@ -61,6 +62,29 @@ def next_text():
     print(selected+"\n")
 
     return selected
+
+@app.route('/insert', methods=['GET'])
+def insert():
+    Translate.insert_many([
+        {
+            "date": "10-02-2021",
+            "english": "Try to enjoy yourselves.",
+            "ip": "127.0.0.1",
+            "pidgin": "For enjoy we.",
+            "user": {
+                "name": "Jay"
+            }
+        },
+        {
+            "date": "10-02-2021",
+            "english": "I take my hat off to you.",
+            "ip": "127.0.0.1",
+            "pidgin": "I move my cap for you.",
+            "user": {
+                "name": "Jay"
+            }
+        },
+    ])
 
 
 @app.route('/save', methods=['POST'])
