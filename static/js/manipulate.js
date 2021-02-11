@@ -59,42 +59,42 @@ $(document).ready(function() {
         location.reload();
     })
 
-    $("#submitWord").click((e) => {
-        if (pidgin = $("#translated").val()) {
-            e.preventDefault();
-            console.log("Ok na");
-            var name = localStorage.getItem("savedName") || $("#user").val();
-            var ip = $("#ip").val();
-            var english = $("#from").val();
-            var pidgin = $("#translated").val();
+    // $("#submitWord").click((e) => {
+    //     if (pidgin = $("#translated").val()) {
+    //         e.preventDefault();
+    //         console.log("Ok na");
+    //         var name = localStorage.getItem("savedName") || $("#user").val();
+    //         var ip = $("#ip").val();
+    //         var english = $("#from").val();
+    //         var pidgin = $("#translated").val();
 
-            var newTranslate = {
-                english,
-                pidgin,
-                "user": {
-                    name,
-                    ip
-                },
-                date: new Date().toJSON().slice(0, 10).replace(/-/g, '-')
-            }
+    //         var newTranslate = {
+    //             english,
+    //             pidgin,
+    //             "user": {
+    //                 name,
+    //                 ip
+    //             },
+    //             date: new Date().toJSON().slice(0, 10).replace(/-/g, '-')
+    //         }
 
-            firestore.collection("translate1").doc().set(
-                newTranslate, { merge: false }).then(() => {
-                console.log("Translate Saved");
-                localStorage.setItem("savedName", name);
-                location.reload();
+    //         firestore.collection("translate1").doc().set(
+    //             newTranslate, { merge: false }).then(() => {
+    //             console.log("Translate Saved");
+    //             localStorage.setItem("savedName", name);
+    //             location.reload();
 
-            }).catch((e) => {
-                console.log("Got an error" + e);
-            })
-            console.log(newTranslate, "--------")
+    //         }).catch((e) => {
+    //             console.log("Got an error" + e);
+    //         })
+    //         console.log(newTranslate, "--------")
 
-            // location.reload();
-        }
-    })
+    //         // location.reload();
+    //     }
+    // })
 
-    var allUsers = []
-    var regUsers = []
+    // var allUsers = []
+    // var regUsers = []
 
 
     // if ($("#displayTranslate").is(":visible")) {

@@ -97,7 +97,6 @@ def contact():
 def translated():
     val = next_text()
     trans = Translate.query.all()
-
     print(val, "---------")
     return render_template("pages/translated.html", text=val, translates=trans)
 # @app.route("/")
