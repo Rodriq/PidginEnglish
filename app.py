@@ -124,24 +124,22 @@ def save():
         to_statement = request.form['to']
         translate = Translate(user=user, english=from_statement,
                               pidgin=to_statement, ip=str(request.remote_addr), date=datetime.now().strftime("%d-%m-%Y"))
-        # translate = {
-        #     "user": user,
-        #     "english": from_statement,
-        #     "pidgin": to_statement
-        # }
+
         print(translate)
         val = next_text()
-        try:
-            # res = ref.set(translate)
-            # new_translate = Translate.insert_one(translate)
+        db.session.add(translate)
+        db.session.commit()
+        # try:
+        # res = ref.set(translate)
+        # new_translate = Translate.insert_one(translate)
 
-            # res = firebase.post("/translate", translate)
-            db.session.add(translate)
-            db.session.commit()
-            print("res", "*************")
-        except:
-            return ("error")
-        return render_template("index.html", text=val, user=user)
+        # res = firebase.post("/translate", translate)
+        #db.session.add(translate)
+        #db.session.commit()
+        print("res", "*************")
+        #except:
+        #return ("error")
+        return render_template("index.html", text=val, user=str(user))
         # return jsonify(new_translate)
 
 
