@@ -13,7 +13,7 @@ client = MongoClient(
     "mongodb+srv://user:Mypassword123@cluster0.w2btl.mongodb.net/translate_db?retryWrites=true&w=majority")
 
 db = client.get_database("translate_db")
-Translate = db.translate
+Translate = db.translate_03
 
 load_dotenv()
 
