@@ -49,8 +49,8 @@ def contact():
 @app.route("/translated", methods=['GET'])
 def translated():
     val = next_text()
-    count_translate = Translate.count_documents({})
-    trans = list(Translate.find())
+    count_translate = Translate.count_documents({"date": datetime.now().strftime("%d-%m-%Y")})
+    trans = list(Translate.find({"date": datetime.now().strftime("%d-%m-%Y")}))
     print(val, "---------")
     return render_template("pages/translated.html", text=val, translates=trans, count=count_translate)
 
