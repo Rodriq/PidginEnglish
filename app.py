@@ -13,7 +13,7 @@ client = MongoClient(
     "mongodb+srv://user:Mypassword123@cluster0.w2btl.mongodb.net/translate_db?retryWrites=true&w=majority")
 
 db = client.get_database("translate_db")
-Translate = db.translate_03
+Translate = db.main
 
 load_dotenv()
 
@@ -49,10 +49,36 @@ def contact():
 @app.route("/translated", methods=['GET'])
 def translated():
     val = next_text()
-    count_translate = Translate.count_documents({"date": datetime.now().strftime("%d-%m-%Y")})
-    trans = list(Translate.find({"date": datetime.now().strftime("%d-%m-%Y")}))
+    count_translate = Translate.count_documents(
+        {"date": datetime.now().strftime("%d-%m-%Y")})
+    trans = list(Translate.find(
+        {"date": datetime.now().strftime("%d-%m-%Y")}, {"_id": 0}))
     print(val, "---------")
     return render_template("pages/translated.html", text=val, translates=trans, count=count_translate)
+
+
+@app.route("/specific", methods=['GET', 'POST'])
+def specific():
+    if request.method == 'POST':
+        date = str(request.form['date'])
+        print(date, "******FFFFFF**")
+
+        date_split = date.split("-")
+        print(date_split, "******DDDDDDDDD**")
+
+        date = str(date_split[2]+"-"+date_split[1]+"-"+date_split[0])
+        count_translate = Translate.count_documents(
+            {"date": date})
+        trans = list(Translate.find(
+            {"date": date}, {"_id": 0}))
+        return render_template("pages/specific.html",  translates=trans, count=count_translate, date=date)
+    else:
+        date = datetime.now().strftime("%d-%m-%Y")
+        count_translate = Translate.count_documents(
+            {"date": date})
+        trans = list(Translate.find(
+            {"date": date}, {"_id": 0}))
+        return render_template("pages/specific.html", translates=trans, count=count_translate, date=date)
 
 
 @app.route('/next', methods=['GET'])
@@ -62,6 +88,7 @@ def next_text():
     print(selected+"\n")
 
     return selected
+
 
 @app.route('/insert', methods=['GET'])
 def insert():
@@ -102,10 +129,10 @@ def save():
                 "ip": str(request.remote_addr)
             },
         }
-       
+
         print(new_translate)
         val = next_text()
-        
+
         try:
             Translate.insert_one(new_translate)
             print("res", "*************")
