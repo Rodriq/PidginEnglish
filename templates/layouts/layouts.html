@@ -48,8 +48,11 @@
         <li class="nav-item">
             <a class="nav-link active" href="{{ url_for('index') }}">Home</a>
         </li>
-        <li class="nav-item">
+        {{!-- <li class="nav-item">
             <a class="nav-link active" href="{{ url_for('translated') }}">Translated Leaderboard</a>
+        </li> --}}
+        <li class="nav-item">
+            <a class="nav-link active" href="{{ url_for('try_model') }}">Try It</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ url_for('about') }}">About</a>
@@ -70,7 +73,7 @@
         </div>
     </div>
 
-    <div class="add position-sticky">
+    <div class="add position-sticky footer-bottom">
         <footer>
             <div class="copyright">
                 <p>&copy 2021 - Pidgin - English | <a style="text-decoration:none; color:rgb(245, 233, 210);" href="rodriq.me">Rodriiqq</a></p>

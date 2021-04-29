@@ -6,12 +6,16 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import datetime
 import random
-from flask_sqlalchemy import SQLAlchemy
+# from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-client = MongoClient(
-    "mongodb+srv://user:Mypassword123@cluster0.w2btl.mongodb.net/translate_db?retryWrites=true&w=majority")
+import translate as trans
 
+client = MongoClient("mongodb+srv://user:Mypassword123@cluster0.w2btl.mongodb.net/translate_db?retryWrites=true&w=majority")
+# client = MongoClient("mongodb://user:Mypassword123@cluster0-shard-00-00.w2btl.mongodb.net:27017,cluster0-shard-00-01.w2btl.mongodb.net:27017,cluster0-shard-00-02.w2btl.mongodb.net:27017/translate_db?ssl=true&replicaSet=atlas-laukbb-shard-0&authSource=admin&retryWrites=true&w=majority")
+
+# "mongodb+srv://<username>:<password>@cluster0.w2btl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+# "mongodb://user:Mypassword123@cluster0-shard-00-00.w2btl.mongodb.net:27017,cluster0-shard-00-01.w2btl.mongodb.net:27017,cluster0-shard-00-02.w2btl.mongodb.net:27017/translate_db?ssl=true&replicaSet=atlas-laukbb-shard-0&authSource=admin&retryWrites=true&w=majority"
 db = client.get_database("translate_db")
 Translate = db.main
 
@@ -44,6 +48,11 @@ def contact():
     val = next_text()
     print(val, "---------")
     return render_template("pages/contact.html", text=val)
+
+
+@app.route("/try")
+def try_model():
+    return render_template("pages/try.html")
 
 
 @app.route("/translated", methods=['GET'])
@@ -162,3 +171,19 @@ def seperate_sentences():
         new_file.close()
 
     return "Post"
+
+
+@app.route('/translate', methods=['POST'])
+def translate():
+    if request.method == 'POST':
+        from_lang = request.form['from']
+        sentence = request.form['sentence']
+        if from_lang != 'en':
+            to_lang = 'en'
+            input_word = trans.get_translation(sentence, to_lang)
+            # print(input_word, 'IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII')
+        else:
+            input_word = sentence
+
+        trans.translate_word(input_word)         
+        return render_template("pages/try.html")
