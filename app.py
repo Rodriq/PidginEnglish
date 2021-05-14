@@ -8,6 +8,7 @@ import datetime
 import random
 # from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+from bson.objectid import ObjectId
 
 import translate as trans
 
@@ -65,6 +66,53 @@ def translated():
     print(val, "---------")
     return render_template("pages/translated.html", text=val, translates=trans, count=count_translate)
 
+@app.route("/rate", methods=['GET'])
+def rate():
+    count_translate = Translate.count_documents({})
+    random_trans = random.randrange(count_translate)
+    phrase = Translate.find().limit(-1).skip(random_trans).next()
+    print(phrase, "---------")
+    return render_template("pages/rate.html", phrase=phrase)
+
+
+
+@app.route("/rate_translate", methods=['GET', 'POST'])
+def rate_translate():
+    count_translate = Translate.count_documents({})
+    random_trans = random.randrange(count_translate)
+    phrase = Translate.find().limit(-1).skip(random_trans).next()
+
+    if request.method == 'GET':
+        if request.args['id'] == None:
+            return render_template("pages/rate.html", phrase=phrase)
+        else:
+            trans_id = str(request.args['id'])
+            trans_rating = request.args['rating']
+            update_rating = {"$set": {"rating": trans_rating}}
+            print(trans_id, "---------")
+            # the_phrase = Translate.find_one({'_id': ObjectId(trans_id)})
+            the_phrase = Translate.update_one({'_id': ObjectId(trans_id)}, update_rating)
+
+            print(the_phrase, 'FFFFFFFFFFFFFFF***********FFFFFFFFFFFF')
+            return render_template("pages/rate.html", phrase=phrase)
+
+    if request.method == 'POST':
+        trans_id = str(request.form['id'])
+        trans_rating = request.form['rating']
+        correct_phrase = str(request.form['correct-translate'])
+        update_phrase = {
+            "$set": {"rating": trans_rating, "pidgin": correct_phrase}}
+        the_phrase = Translate.update_one(
+            {'_id': ObjectId(trans_id)}, update_phrase)
+
+
+        print(the_phrase, "PPPPPPPPPPPPPPPPPPPPPPP")
+
+        return render_template("pages/rate.html", phrase=phrase)
+
+    return render_template("pages/rate.html", phrase=phrase)
+
+
 
 @app.route("/specific", methods=['GET', 'POST'])
 def specific():
@@ -73,7 +121,7 @@ def specific():
         print(date, "******FFFFFF**")
 
         date_split = date.split("-")
-        print(date_split, "******DDDDDDDDD**")
+        print(date_split, "******DDDDDDDD**")
 
         date = str(date_split[2]+"-"+date_split[1]+"-"+date_split[0])
         count_translate = Translate.count_documents(
@@ -186,4 +234,8 @@ def translate():
             input_word = sentence
 
         trans.translate_word(input_word)         
-        return render_template("pages/try.html")
+        return render_template("pages/try.html", sentence=sentence, translated=input_word)
+
+if __name__ == "__main__":
+    print("Server is running...")
+    app.run()

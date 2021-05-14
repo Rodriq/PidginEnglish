@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/rating.css')}}" /> {% extends "layouts/layouts.html" %} {% block content%}
+
+<h3>Verify</h3>
+<hr />
+
+<strong>Please rate the accuracy of the following phrases</strong> &nbsp;
+<br>
+<br>
+<div class="text-center container-fluid">
+    <div>
+        <div class="container d-flex justify-content-center mt-40">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card" id="anime-card">
+                        <div class="card-header bg-info font-weight-bold">
+                            <h4>{{ phrase.english }}</h4>
+                        </div>
+                        <div class="card-body text-center">
+                            {% if phrase.rating%}
+                            <span class="myratings">{{phrase.rating}}</span> {% else %}<span class="myratings">0.0</span>{% endif %}
+
+                            <h4 class="mt-1 text-primary font-weight-bold">
+                                {{ phrase.pidgin }}
+
+                            </h4>
+                            <input id="_id" type="hidden" name="id" value="{{phrase._id}}">
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4.5" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3.5" /><label class="half" for="star3half" title="Good - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3" title="Fair - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2.5" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1.5" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="0.5" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                                <input type="radio" class="reset-option" name="rating" value="reset" />
+                            </fieldset>
+                        </div>
+                        {% if phrase.user.name%}
+                        <small class="float-left">by: {{phrase.user.name}}</small> {% else %}
+                        <small class="float-left">by: Anonymous Contributor</small> {% endif %}
+                        <!-- <small class="float-left">by: {{phrase.user.name}}</small> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="displayUpdateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="">
+    <div class="modal-dialog modal-md modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Update Phrase</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="{{url_for('rate_translate')}}" method="post">
+                    <input type="hidden" name="id" id="id" value="{{ phrase._id }}" id="id-position">
+                    <input type="hidden" name="rating" id="rating" value="3" id="rating-position">
+
+                    <div class="form-group row">
+                        <label for="colFormLabelSm" class="col-form-label">{{phrase.english}}
+                            <small class="text-muted">(Enter correct translation below)</small></label><br>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" id="correct-translate" name="correct-translate" placeholder="Type full meaning in pidgin">
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
