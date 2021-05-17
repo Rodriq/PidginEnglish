@@ -9,6 +9,7 @@
     <meta name="description" content="Translate languages to Pidgin">
     <meta name="keywords" content="Pidgin, Translate, NLP">
     <meta name="author" content="@Rodriiqq">
+    <meta name="theme-color" content="#0dcaf0">
 
     <meta property="og:site_name" content="Pidgin English | NLP">
     <meta property="og:title" content="Native Translation made Easy" />
@@ -25,11 +26,22 @@
     <!-- Website to visit when clicked in fb or WhatsApp-->
     <meta property="og:url" content="http://pidgin-english.tech">
 
+    <!-- Apple Meta tags -->
+    <meta name="apple-mobile-web-app-title" content="PidginEnglish">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
     <!-- <meta property="og:image" content=/> -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static', filename = 'images/icons/apple-touch-icon.png')}}">
+    <link rel="apple-touch-startup-image" href="{{url_for('static', filename = 'images/icons/apple_launch.png')}}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static', filename = 'images/icons/favicon-32x32.png')}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static', filename = 'images/icons/favicon-16x16.png')}}">
-    <link rel="manifest" href="{{url_for('static', filename = 'images/icons/site.webmanifest')}}">
+    <!-- <link rel="manifest" href="{{url_for('static', filename = 'images/icons/site.webmanifest')}}"> -->
+
+    <!-- PWA Features -->
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{url_for('static', filename = 'css/bootstrap.css')}}" />
     <link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css')}}" />
@@ -41,9 +53,11 @@
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
     </div> -->
-
+    <!-- <button style="opacity: 0.4" class="btn btn-primary" href="#" id="installButton" hidden type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Install PidginEnglish -->
+    </button>
     <ul class="nav justify-content-end" id="nav1">
-        <image id="logoImage" width="50px" height="50px" src="{{url_for('static', filename = 'images/logo.png')}}">
+        <image id="logoImage" width="50px" height="50px" src="{{url_for('static', filename = 'images/logo.png')}}" alt="PidginEnglish logo">
         </image>
         <li class="nav-item">
             <a class="nav-link active" href="{{ url_for('index') }}">Home</a>
@@ -64,6 +78,22 @@
             <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
         </li>
     </ul>
+    <div class="modal fade" id="installModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Install App</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body center">
+                    <h3><button type="button" class="btn btn-primary" href="#" id="installButton">Install PidginEnglish</button>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm col-1">
@@ -78,7 +108,7 @@
     <div style="height: 120px;">
 
     </div>
-    <div class="add position-sticky footer-bottom">
+    <div class="add footer-bottom">
         <footer>
             <div class="copyright">
                 <p>&copy 2021 - Pidgin - English | <a style="text-decoration:none; color:rgb(245, 233, 210);" href="rodriq.me">Rodriiqq</a></p>
@@ -101,6 +131,7 @@
     <script src="{{url_for('static', filename = 'js/bootstrap.js')}}"></script>
     <script src="{{url_for('static', filename = 'js/manipulate.js')}}"></script>
     <script src="{{url_for('static', filename = 'js/rating.js')}}"></script>
+
     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 </body>
 

@@ -12,7 +12,8 @@ from bson.objectid import ObjectId
 
 import translate as trans
 
-client = MongoClient("mongodb+srv://user:Mypassword123@cluster0.w2btl.mongodb.net/translate_db?retryWrites=true&w=majority")
+client = MongoClient(
+    "mongodb+srv://user:Mypassword123@cluster0.w2btl.mongodb.net/translate_db?retryWrites=true&w=majority")
 # client = MongoClient("mongodb://user:Mypassword123@cluster0-shard-00-00.w2btl.mongodb.net:27017,cluster0-shard-00-01.w2btl.mongodb.net:27017,cluster0-shard-00-02.w2btl.mongodb.net:27017/translate_db?ssl=true&replicaSet=atlas-laukbb-shard-0&authSource=admin&retryWrites=true&w=majority")
 
 # "mongodb+srv://<username>:<password>@cluster0.w2btl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
@@ -66,6 +67,7 @@ def translated():
     print(val, "---------")
     return render_template("pages/translated.html", text=val, translates=trans, count=count_translate)
 
+
 @app.route("/rate", methods=['GET'])
 def rate():
     count_translate = Translate.count_documents({})
@@ -75,43 +77,67 @@ def rate():
     return render_template("pages/rate.html", phrase=phrase)
 
 
-
 @app.route("/rate_translate", methods=['GET', 'POST'])
 def rate_translate():
     count_translate = Translate.count_documents({})
     random_trans = random.randrange(count_translate)
     phrase = Translate.find().limit(-1).skip(random_trans).next()
+    # phrase = current_phrase = Translate.find_one(
+    #     {'_id': ObjectId("602aa0e43b91be5f7d1ed86a")})
+
 
     if request.method == 'GET':
         if request.args['id'] == None:
             return render_template("pages/rate.html", phrase=phrase)
         else:
             trans_id = str(request.args['id'])
-            trans_rating = request.args['rating']
-            update_rating = {"$set": {"rating": trans_rating}}
+            trans_rating = float(request.args['rating'])
+            # update_rating = {"$set": {"rating": trans_rating}}
             print(trans_id, "---------")
-            # the_phrase = Translate.find_one({'_id': ObjectId(trans_id)})
-            the_phrase = Translate.update_one({'_id': ObjectId(trans_id)}, update_rating)
+            current_phrase = Translate.find_one({'_id': ObjectId(trans_id)})
+            # print(current_phrase["rating"], "----CCCCCCCCCCCCCCCCCCCCCCCCCCCC-----")
+
+            # update params
+            if "rate" in current_phrase:
+                count = current_phrase["rate"]["count"] + 1
+                total = current_phrase["rate"]["total"] + trans_rating
+                average = total/count
+            else:
+                count = 0 + 1
+                total = 0 + trans_rating
+                average = total/count
+
+            # Insert now
+            update_rating = {"$set": {"rate": {
+                "count": count,
+                "total": total,
+                "average": average
+            }}}
+
+            the_phrase = Translate.update_one(
+                {'_id': ObjectId(trans_id)}, update_rating)
 
             print(the_phrase, 'FFFFFFFFFFFFFFF***********FFFFFFFFFFFF')
             return render_template("pages/rate.html", phrase=phrase)
 
     if request.method == 'POST':
         trans_id = str(request.form['id'])
-        trans_rating = request.form['rating']
+        trans_rating = float(request.form['rating'])
         correct_phrase = str(request.form['correct-translate'])
         update_phrase = {
-            "$set": {"rating": trans_rating, "pidgin": correct_phrase}}
+            "$set": {"rate": {
+                "count": 1,
+                "total": trans_rating,
+                "average": trans_rating
+            }, "pidgin": correct_phrase}}
         the_phrase = Translate.update_one(
             {'_id': ObjectId(trans_id)}, update_phrase)
-
 
         print(the_phrase, "PPPPPPPPPPPPPPPPPPPPPPP")
 
         return render_template("pages/rate.html", phrase=phrase)
 
     return render_template("pages/rate.html", phrase=phrase)
-
 
 
 @app.route("/specific", methods=['GET', 'POST'])
@@ -185,6 +211,11 @@ def save():
                 "name": user,
                 "ip": str(request.remote_addr)
             },
+            "rate": {
+                "count": 0,
+                "total": 0,
+                "average": 0
+            }
         }
 
         print(new_translate)
@@ -233,8 +264,21 @@ def translate():
         else:
             input_word = sentence
 
-        trans.translate_word(input_word)         
+        trans.translate_word(input_word)
         return render_template("pages/try.html", sentence=sentence, translated=input_word)
+
+# ===== Sevice worker route.
+
+
+@app.route('/service-worker.js')
+def sw():
+    return app.send_static_file('service-worker.js')
+
+
+@app.route('/offline.html')
+def offline():
+    return app.send_static_file('offline.html')
+
 
 if __name__ == "__main__":
     print("Server is running...")
