@@ -32,6 +32,12 @@ username = ""
 
 
 @app.route("/")
+def home():
+    # val = next_text()
+    # print(val, request.remote_addr, "---------")
+    return render_template("pages/landing.html")
+
+@app.route("/home")
 def index():
     val = next_text()
     print(val, request.remote_addr, "---------")

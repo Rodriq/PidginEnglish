@@ -33,7 +33,7 @@ function rateTranslate(id, rating) {
     // });
     window.blur()
 
-    $.get(requestUrl, { id, rating }, function(data) {
+    jQuery.get(requestUrl, { id, rating }, function(data) {
         // alert('page content: ' + data);
         window.location.reload()
     });
