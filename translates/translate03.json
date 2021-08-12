@@ -1,0 +1,461 @@
+{"_id":{"$oid":"60261ce48459b0ac97c35886"},"english":"Tell Tom I don't know where he parked his car.","pidgin":"Tell Tom say I no know wuside ei park ei motor.","date":"12-02-2021","user":{"name":"Rodriq","ip":"127.0.0.1"}}
+{"_id":{"$oid":"60261cf88459b0ac97c35887"},"english":"Well, are you coming?","pidgin":"Asey, you go di cam?","date":"12-02-2021","user":{"name":"Rodriq","ip":"127.0.0.1"}}
+{"_id":{"$oid":"60261d0e8459b0ac97c35888"},"english":"I didn't feel like eating lunch.","pidgin":"I no di feel like to chop.","date":"12-02-2021","user":{"name":"Rodriq","ip":"127.0.0.1"}}
+{"_id":{"$oid":"602620058120893a2fca24ec"},"english":"Who teaches you?","pidgin":"Na who di teach you? ","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.39.211.254"}}
+{"_id":{"$oid":"6026207b6c5e32e2a899f3fe"},"english":"I've got something to say.","pidgin":"I get something fo talk","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602620806c5e32e2a899f3ff"},"english":"I've got something to say.","pidgin":"I get something fo talk","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602620838120893a2fca24ed"},"english":"I've got something to say.","pidgin":"I get something fo talk","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602620868120893a2fca24ee"},"english":"I've got something to say.","pidgin":"I get something fo talk","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.13.247.220"}}
+{"_id":{"$oid":"6026208a8120893a2fca24ef"},"english":"I've got something to say.","pidgin":"I get something fo talk","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602620976c5e32e2a899f400"},"english":"Is there something you want to ask?","pidgin":"You want something? ","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602620a28120893a2fca24f0"},"english":"Do I have to do it over again?","pidgin":"I get to dowam again?","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602620ac8120893a2fca24f1"},"english":"You look like a lawyer.","pidgin":"You dey like some lawyer ","date":"12-02-2021","user":{"name":"Prime Suspect","ip":"10.13.247.220"}}
+{"_id":{"$oid":"6026267e8120893a2fca24f2"},"english":"I repeated his exact statement.","pidgin":"A talk na wety way e talk","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602626946c5e32e2a899f401"},"english":"I have an umbrella in my car.","pidgin":"A get umbrella for ma moto","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602626c68120893a2fca24f3"},"english":"I feel bad about the way things happened.","pidgin":"A no yar mor for wety way'ehappen","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602626de8120893a2fca24f4"},"english":"I'm feeling much better today.","pidgin":"A di yar small mor today","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602626f58120893a2fca24f5"},"english":"Is something happening?","pidgin":"Na wety di hapen","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602627106c5e32e2a899f402"},"english":"Is something happening?","pidgin":"Na wety di hapen","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"6026272f6c5e32e2a899f403"},"english":"Tom had only one leg.","pidgin":"Tom be get na one foot","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602627526c5e32e2a899f404"},"english":"Where are they taking you?","pidgin":"Thm di take you go na woside","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602627686c5e32e2a899f405"},"english":"That's upsetting.","pidgin":"That thing di vex me. ","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602627728120893a2fca24f6"},"english":"That's upsetting.","pidgin":"That thing di vex me. ","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602627918120893a2fca24f7"},"english":"What movie was it that you told me I should watch?","pidgin":"Na de film that way you be di say ma lookam","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"6026279a8120893a2fca24f8"},"english":"What movie was it that you told me I should watch?","pidgin":"Na de film that way you be di say ma lookam","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602627ac8120893a2fca24f9"},"english":"I want to see that.","pidgin":"A want seeyam","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602627b28120893a2fca24fa"},"english":"I want to see that.","pidgin":"A want seeyam","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602627c56c5e32e2a899f406"},"english":"We talk to each other every day.","pidgin":"Me and ye di talk everyday","date":"12-02-2021","user":{"name":"VJ","ip":"10.8.240.17"}}
+{"_id":{"$oid":"60262afb6c5e32e2a899f407"},"english":"I'd like you to keep this a secret.","pidgin":"I go like say make you keepam like secret","date":"12-02-2021","user":{"name":"Spence","ip":"10.10.68.189"}}
+{"_id":{"$oid":"60262b118120893a2fca24fb"},"english":"Did you hear what we said?","pidgin":"You hear wetin I tok","date":"12-02-2021","user":{"name":"Spence","ip":"10.11.97.70"}}
+{"_id":{"$oid":"60262b3d6c5e32e2a899f408"},"english":"He promised not to tell that to anyone.","pidgin":"E promise for to no tok for anyman","date":"12-02-2021","user":{"name":"Spence","ip":"10.11.97.70"}}
+{"_id":{"$oid":"60262b668120893a2fca24fc"},"english":"You must be cautious.","pidgin":"You get for Lukot","date":"12-02-2021","user":{"name":"Spence","ip":"10.9.59.88"}}
+{"_id":{"$oid":"60262b7c8120893a2fca24fd"},"english":"I don't have the patience for this.","pidgin":"I no get time for this","date":"12-02-2021","user":{"name":"Spence","ip":"10.9.59.88"}}
+{"_id":{"$oid":"60262ba26c5e32e2a899f409"},"english":"I've got no reason to stay.","pidgin":"I no get reason for remain for here","date":"12-02-2021","user":{"name":"Spence","ip":"10.9.59.88"}}
+{"_id":{"$oid":"60262bd68120893a2fca24fe"},"english":"You want to get out of here, don't you?","pidgin":"You want comot for here, nobi so??","date":"12-02-2021","user":{"name":"Spence","ip":"10.32.155.121"}}
+{"_id":{"$oid":"60262c1d8120893a2fca24ff"},"english":"That's a beautiful name.","pidgin":"Na some fine name that","date":"12-02-2021","user":{"name":"Spence","ip":"10.84.140.24"}}
+{"_id":{"$oid":"60262ce08120893a2fca2500"},"english":"That's a beautiful name.","pidgin":"Na some fine name that","date":"12-02-2021","user":{"name":"Spence","ip":"10.37.82.116"}}
+{"_id":{"$oid":"60262cf08120893a2fca2501"},"english":"That's a beautiful name.","pidgin":"Na some fine name that","date":"12-02-2021","user":{"name":"Spence","ip":"10.37.82.116"}}
+{"_id":{"$oid":"60262d256c5e32e2a899f40a"},"english":"My neighbor is crazy.","pidgin":"my nebor di craze","date":"12-02-2021","user":{"name":"Infamous","ip":"10.11.131.158"}}
+{"_id":{"$oid":"60262d648120893a2fca2502"},"english":"Cats can see even in dark places.","pidgin":"pussi dem fit see even for dark place dem","date":"12-02-2021","user":{"name":"Infamous","ip":"10.97.20.110"}}
+{"_id":{"$oid":"60262d6b6c5e32e2a899f40b"},"english":"Cats can see even in dark places.","pidgin":"pussi dem fit see even for dark place dem","date":"12-02-2021","user":{"name":"Infamous","ip":"10.97.20.110"}}
+{"_id":{"$oid":"60262d716c5e32e2a899f40c"},"english":"Cats can see even in dark places.","pidgin":"pussi dem fit see even for dark place dem","date":"12-02-2021","user":{"name":"Infamous","ip":"10.97.20.110"}}
+{"_id":{"$oid":"60262d8d8120893a2fca2503"},"english":"Cats can see even in dark places.","pidgin":"pussi dem fit see even for dark place dem","date":"12-02-2021","user":{"name":"Infamous","ip":"10.97.20.110"}}
+{"_id":{"$oid":"60262dc96c5e32e2a899f40d"},"english":"Have you already decided where you'll be spending Christmas?","pidgin":"you don already know side way you go chop Christmas? ","date":"12-02-2021","user":{"name":"Infamous","ip":"10.37.111.40"}}
+{"_id":{"$oid":"60262dea8120893a2fca2504"},"english":"Sing along.","pidgin":"Oya roger","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262df28120893a2fca2505"},"english":"Sing along.","pidgin":"Oya roger","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262e068120893a2fca2506"},"english":"I felt guilty about it.","pidgin":"Ma guilty conji Di hold me","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262e168120893a2fca2507"},"english":"Can you eat something there?","pidgin":"Some better chop dey dey?","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262e1a6c5e32e2a899f40e"},"english":"Can you eat something there?","pidgin":"Some better chop dey dey?","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262e2b8120893a2fca2508"},"english":"This coffee tastes bitter.","pidgin":"Di coffee Di nack fine","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262e3f8120893a2fca2509"},"english":"This coffee tastes bitter.","pidgin":"Di coffee Di nack fine","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262e766c5e32e2a899f40f"},"english":"That's a beautiful name.","pidgin":"Na some fine name that","date":"12-02-2021","user":{"name":"Spence","ip":"10.11.97.70"}}
+{"_id":{"$oid":"60262e788120893a2fca250a"},"english":"This coffee tastes bitter.","pidgin":"Di coffee Di nack fine","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262e826c5e32e2a899f410"},"english":"Tom wasn't complaining.","pidgin":"Tom no be Di worry","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262e908120893a2fca250b"},"english":"It's a strange situation.","pidgin":"The situation dey some kind","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262ea56c5e32e2a899f411"},"english":"It's a strange situation.","pidgin":"The situation dey some kind","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262eab6c5e32e2a899f412"},"english":"It's a strange situation.","pidgin":"The situation dey some kind","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262ec68120893a2fca250c"},"english":"Who called the cops?","pidgin":"Na who dem sound ekielebe","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262ee06c5e32e2a899f413"},"english":"She was alone in the house.","pidgin":"Ey be dey long ey one","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262ee56c5e32e2a899f414"},"english":"She was alone in the house.","pidgin":"Ey be dey long ey one","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262efb8120893a2fca250d"},"english":"It looks like we're almost out of the woods.","pidgin":"Ey dey like we do can comot bush","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262f088120893a2fca250e"},"english":"It looks like we're almost out of the woods.","pidgin":"Ey dey like we do can comot bush","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.32.165.53"}}
+{"_id":{"$oid":"60262fd56c5e32e2a899f415"},"english":"He's my old drinking buddy.","pidgin":"Na my old padiman for shacking this","date":"12-02-2021","user":{"name":"eco_iby_bae","ip":"10.10.68.189"}}
+{"_id":{"$oid":"60262fe38120893a2fca250f"},"english":"I think there's something wrong.","pidgin":"How are you ?","date":"12-02-2021","user":{"name":"","ip":"10.84.140.24"}}
+{"_id":{"$oid":"6026422f6c5e32e2a899f416"},"english":"What's your niece's name?","pidgin":"Na weti be ya broda ei girl pikin ei name ?","date":"12-02-2021","user":{"name":"Aze","ip":"10.34.68.103"}}
+{"_id":{"$oid":"602642426c5e32e2a899f417"},"english":"Come quickly!","pidgin":"Come quick quick!","date":"12-02-2021","user":{"name":"Aze","ip":"10.34.68.103"}}
+{"_id":{"$oid":"602642586c5e32e2a899f418"},"english":"I'll give you a shot.","pidgin":"I go kick you.","date":"12-02-2021","user":{"name":"Aze","ip":"10.34.68.103"}}
+{"_id":{"$oid":"6026426e8120893a2fca2510"},"english":"Don't tell me what to say.","pidgin":"No tell me thin fo talk.","date":"12-02-2021","user":{"name":"Aze","ip":"10.34.68.103"}}
+{"_id":{"$oid":"602642928120893a2fca2511"},"english":"Everything is working out just as Tom predicted.","pidgin":"Althing di go as tom takam.","date":"12-02-2021","user":{"name":"Aze","ip":"10.34.68.103"}}
+{"_id":{"$oid":"602642b58120893a2fca2512"},"english":"Bad news travels fast.","pidgin":"Bad mob di waka quick quick","date":"12-02-2021","user":{"name":"Aze","ip":"10.34.68.103"}}
+{"_id":{"$oid":"602642d76c5e32e2a899f419"},"english":"The rain lasted a week.","pidgin":"Rain fall fo one week staight","date":"12-02-2021","user":{"name":"Aze","ip":"10.34.68.103"}}
+{"_id":{"$oid":"6026432a6c5e32e2a899f41a"},"english":"Autonomy was granted in 1969 and independence in 1979.","pidgin":"Autonomy start fo 1969 and independence fo 1979","date":"12-02-2021","user":{"name":"Aze","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602643436c5e32e2a899f41b"},"english":"What are these people doing?","pidgin":"Dis people them di do na weti ?","date":"12-02-2021","user":{"name":"Aze","ip":"10.8.240.17"}}
+{"_id":{"$oid":"6026435a6c5e32e2a899f41c"},"english":"Pray for all of us.","pidgin":"Pray fo all we.","date":"12-02-2021","user":{"name":"Aze","ip":"10.8.240.17"}}
+{"_id":{"$oid":"602643786c5e32e2a899f41d"},"english":"She was unconscious for three days.","pidgin":"She faint fo 3 réels.","date":"12-02-2021","user":{"name":"Aze","ip":"10.8.240.17"}}
+{"_id":{"$oid":"6026446a8120893a2fca2513"},"english":"Please write down everything I say.","pidgin":"Abeg write all thing way ah talk ","date":"12-02-2021","user":{"name":"Louizy","ip":"10.37.19.11"}}
+{"_id":{"$oid":"602644978120893a2fca2514"},"english":"She is able to speak ten languages.","pidgin":"E fit talk ten talk'dem","date":"12-02-2021","user":{"name":"Louizy","ip":"10.38.217.233"}}
+{"_id":{"$oid":"602644e18120893a2fca2515"},"english":"Don't you get bored when you're alone?","pidgin":"Place no di bore you time way you dey you one? ","date":"12-02-2021","user":{"name":"Louizy","ip":"10.38.10.19"}}
+{"_id":{"$oid":"602645088120893a2fca2516"},"english":"Watch your tongue.","pidgin":"Know that kana thing dem way di comot ya mop","date":"12-02-2021","user":{"name":"Louizy","ip":"10.14.25.48"}}
+{"_id":{"$oid":"602645256c5e32e2a899f41e"},"english":"It doesn't matter which team wins the game.","pidgin":"E no matter wada n'a who win match","date":"12-02-2021","user":{"name":"Louizy","ip":"10.14.25.48"}}
+{"_id":{"$oid":"602645336c5e32e2a899f41f"},"english":"That's not mine.","pidgin":"No bi ma own","date":"12-02-2021","user":{"name":"Louizy","ip":"10.14.25.48"}}
+{"_id":{"$oid":"602645506c5e32e2a899f420"},"english":"They do it faster than us.","pidgin":"They di do'am quick-quick  pass we ","date":"12-02-2021","user":{"name":"Louizy","ip":"10.9.6.145"}}
+{"_id":{"$oid":"602645968120893a2fca2517"},"english":"The camera will cost at least $500.","pidgin":"That camera n'a fap-shee","date":"12-02-2021","user":{"name":"Louizy","ip":"10.38.83.15"}}
+{"_id":{"$oid":"602645af8120893a2fca2518"},"english":"I never wash the dishes unless I'm told to.","pidgin":"Ah no di ever wash pan until they tell me","date":"12-02-2021","user":{"name":"Louizy","ip":"10.38.83.15"}}
+{"_id":{"$oid":"602645fe8120893a2fca2519"},"english":"I was hurt and upset.","pidgin":"Ah be di vex","date":"12-02-2021","user":{"name":"Louizy","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602646168120893a2fca251a"},"english":"I love American movies.","pidgin":"Ah like American film'dem ","date":"12-02-2021","user":{"name":"Louizy","ip":"10.14.25.48"}}
+{"_id":{"$oid":"602646256c5e32e2a899f421"},"english":"They'll remember.","pidgin":"They go member","date":"12-02-2021","user":{"name":"Louizy","ip":"10.14.25.48"}}
+{"_id":{"$oid":"602646498120893a2fca251b"},"english":"It looks like today will be a long day.","pidgin":"E dey like say today go be n'a  long day","date":"12-02-2021","user":{"name":"Louizy","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602646666c5e32e2a899f422"},"english":"Tom seems to want to say something.","pidgin":"E dey like say Tom want talk something. ","date":"12-02-2021","user":{"name":"Louizy","ip":"10.13.247.220"}}
+{"_id":{"$oid":"602646946c5e32e2a899f423"},"english":"I was just about to leave the house when the telephone rang.","pidgin":"Ah be joh want comot so way phone ring ","date":"12-02-2021","user":{"name":"Louizy","ip":"10.13.244.211"}}
+{"_id":{"$oid":"602646c96c5e32e2a899f424"},"english":"I didn't know Tom would let Mary do that.","pidgin":"Ah no bi know say Tom for leavam me'e Mary do that kana thing ","date":"12-02-2021","user":{"name":"Louizy","ip":"10.10.227.188"}}
+{"_id":{"$oid":"602646dd8120893a2fca251c"},"english":"I can't change how tall I am.","pidgin":"Ah no fit change the way ah talk so","date":"12-02-2021","user":{"name":"Louizy","ip":"10.10.227.188"}}
+{"_id":{"$oid":"602646f38120893a2fca251d"},"english":"He was not happy about it.","pidgin":"E no bi like'am","date":"12-02-2021","user":{"name":"Louizy","ip":"10.10.227.188"}}
+{"_id":{"$oid":"602647c56c5e32e2a899f425"},"english":"He arrived at the station out of breath.","pidgin":"E reach station di breath like horse way run Buea - Mountain race","date":"12-02-2021","user":{"name":"Louizy","ip":"10.11.97.70"}}
+{"_id":{"$oid":"602647f78120893a2fca251e"},"english":"What was in it for you?","pidgin":"Ya own for inside be bi n'a watty ? ","date":"12-02-2021","user":{"name":"Louizy","ip":"10.32.231.221"}}
+{"_id":{"$oid":"602664ae60f222ed2902f72e"},"english":"What's wrong with this one?","pidgin":"Waity dey worry you? ","date":"12-02-2021","user":{"name":"Silang Gilbert","ip":"10.39.211.254"}}
+{"_id":{"$oid":"602664db60f222ed2902f72f"},"english":"I'd like to explain everything, but I don't think we have enough time.","pidgin":"I go like for jist you sontin but hour no dey","date":"12-02-2021","user":{"name":"Silang Gilbert","ip":"10.39.211.254"}}
+{"_id":{"$oid":"6026a6579c3a3d4d834002d7"},"english":"Go ahead.","pidgin":"Begin di go.","date":"12-02-2021","user":{"name":"Jay","ip":"10.36.40.162"}}
+{"_id":{"$oid":"6026a9309c3a3d4d834002d8"},"english":"Do you have a blog?","pidgin":"U get block so ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026a9419c3a3d4d834002d9"},"english":"There's no speed limit.","pidgin":"Speed limit no de ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026a95ec083bcb242fee690"},"english":"Our school has about one thousand students.","pidgin":"Wah school get like 1k pikin dem","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026a96cc083bcb242fee691"},"english":"Let's be careful.","pidgin":"Make we lukot ohh","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026a9829c3a3d4d834002da"},"english":"How was the flight?","pidgin":"Ya flight be de na how ehh","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026a998c083bcb242fee692"},"english":"You didn't complain, did you?","pidgin":"I hope say you no be complain","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026a9bcc083bcb242fee693"},"english":"Tom takes the kids to the school every day.","pidgin":"Tom di take ei pikin dem go school everyday","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026a9f39c3a3d4d834002db"},"english":"I may not get anything I asked for.","pidgin":"I no sure say I go fit get any tin wey I be ask ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026aa0cc083bcb242fee694"},"english":"I'm feeling good this morning.","pidgin":"Ma skin di sweet me di sharp bad ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026aa1bc083bcb242fee695"},"english":"Does this hurt?","pidgin":"Ei di hot you ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026aa2ec083bcb242fee696"},"english":"Don't look at it.","pidgin":"No di look da tin ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026aa379c3a3d4d834002dc"},"english":"Are you married?","pidgin":"U don marry ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026aa68c083bcb242fee697"},"english":"I first met him three years ago.","pidgin":"I be fest mitop ei like 3 years ago ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026aa8a9c3a3d4d834002dd"},"english":"I have a mission for you.","pidgin":"I get some work wey I want you for work ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026aa989c3a3d4d834002de"},"english":"Play it again.","pidgin":"Playam again so ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026aaa0c083bcb242fee698"},"english":"Play it again.","pidgin":"Playam again so ","date":"12-02-2021","user":{"name":"Deza","ip":"10.15.154.196"}}
+{"_id":{"$oid":"6026c1369c3a3d4d834002df"},"english":"Don't worry. It's easy.","pidgin":"No worry. Na small","date":"12-02-2021","user":{"name":"Almighty ","ip":"10.9.6.145"}}
+{"_id":{"$oid":"6026c1549c3a3d4d834002e0"},"english":"Don't worry. It's easy.","pidgin":"No worry. Na small","date":"12-02-2021","user":{"name":"Almighty ","ip":"10.35.251.250"}}
+{"_id":{"$oid":"6026c16ae34e816ff510ff8c"},"english":"Tom gave Mary a box of chocolates.","pidgin":"Tom give Mary chocolate.","date":"12-02-2021","user":{"name":"Jasmine","ip":"127.0.0.1"}}
+{"_id":{"$oid":"6026c21be34e816ff510ff8d"},"english":"You're a horrible driver.","pidgin":"You no know how to drive.","date":"12-02-2021","user":{"name":"Jasmine","ip":"127.0.0.1"}}
+{"_id":{"$oid":"6026c3dfc083bcb242fee699"},"english":"Don't worry. It's easy.","pidgin":"No worry. Na small","date":"12-02-2021","user":{"name":"Almighty ","ip":"10.8.73.76"}}
+{"_id":{"$oid":"6026c3f39c3a3d4d834002e1"},"english":"I kept hoping I'd meet Tom.","pidgin":"I be feel say i go meetop Tok","date":"12-02-2021","user":{"name":"Almighty ","ip":"10.10.227.188"}}
+{"_id":{"$oid":"6026c4f0c083bcb242fee69a"},"english":"His eyes are red.","pidgin":"Boy ei eye them red. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.37.28.240"}}
+{"_id":{"$oid":"6026c5059c3a3d4d834002e2"},"english":"It's a good movie.","pidgin":"Na fine film this. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.8.240.17"}}
+{"_id":{"$oid":"6026c53cc083bcb242fee69b"},"english":"How old is your father?","pidgin":"Ya pa dey how many years?","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.37.82.116"}}
+{"_id":{"$oid":"6026c5f89c3a3d4d834002e3"},"english":"We are not here for fun and games.","pidgin":"We no di play for here. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026c6099c3a3d4d834002e4"},"english":"I'm reading a book.","pidgin":"I di jar book. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.8.2.166"}}
+{"_id":{"$oid":"6026c622c083bcb242fee69c"},"english":"I figured I'd find you here.","pidgin":"I bi know say you go dey here. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.34.94.34"}}
+{"_id":{"$oid":"6026c63bc083bcb242fee69d"},"english":"I had no idea.","pidgin":"Boy, I ndem. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.39.211.254"}}
+{"_id":{"$oid":"6026c66fc083bcb242fee69e"},"english":"Start writing.","pidgin":"Oya, begin de write. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.35.65.206"}}
+{"_id":{"$oid":"6026c69ac083bcb242fee69f"},"english":"Your tire is flat.","pidgin":"Ya tire don weple all. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.39.168.78"}}
+{"_id":{"$oid":"6026c6ca9c3a3d4d834002e5"},"english":"You don't have to explain anything.","pidgin":"Just levam so, no talk am. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.32.185.71"}}
+{"_id":{"$oid":"6026c6f69c3a3d4d834002e6"},"english":"I thought you'd be interested in this.","pidgin":"I fit say you go enjoy am o","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.37.19.11"}}
+{"_id":{"$oid":"6026c7289c3a3d4d834002e7"},"english":"That would be a wise decision.","pidgin":"Boy, ei make one hass sense. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.14.25.48"}}
+{"_id":{"$oid":"6026c73cc083bcb242fee6a0"},"english":"A screw's missing.","pidgin":"One screw don loss. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026c76a9c3a3d4d834002e8"},"english":"He bought her a sweater.","pidgin":"Ei buy yi pulova. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026c7869c3a3d4d834002e9"},"english":"Tom is there already.","pidgin":"Tom Dey here since. ","date":"12-02-2021","user":{"name":"LesloBoy","ip":"10.34.14.131"}}
+{"_id":{"$oid":"6026c79cc083bcb242fee6a1"},"english":"I have no problem with this.","pidgin":"Ah no get problem way di one","date":"12-02-2021","user":{"name":"Katlyn","ip":"10.14.25.48"}}
+{"_id":{"$oid":"6026c7fa9c3a3d4d834002ea"},"english":"Read this now.","pidgin":"Read dam now so","date":"12-02-2021","user":{"name":"Katlyn","ip":"10.39.172.124"}}
+{"_id":{"$oid":"6026c8079c3a3d4d834002eb"},"english":"Do you have something to say?","pidgin":"You wan talk say wayti?","date":"12-02-2021","user":{"name":"Katlyn","ip":"10.39.172.124"}}
+{"_id":{"$oid":"6026c8159c3a3d4d834002ec"},"english":"Shall I get you a chair?","pidgin":"Mah bring you chair","date":"12-02-2021","user":{"name":"Katlyn","ip":"10.39.172.124"}}
+{"_id":{"$oid":"6026c83bc083bcb242fee6a2"},"english":"I talked to her.","pidgin":"Ah talk foh dah girl","date":"12-02-2021","user":{"name":"Katlyn","ip":"10.39.172.124"}}
+{"_id":{"$oid":"6026cb69c083bcb242fee6a3"},"english":"A number of countries have strict laws against drugs.","pidgin":"Contry dem dey wey them no di accept Kush and dope","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cb789c3a3d4d834002ed"},"english":"Tom decided not to smoke anymore.","pidgin":"Tom no wan fap again","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cb8cc083bcb242fee6a4"},"english":"He put his things down and left.","pidgin":"He leave ei tin Dem go ei","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cb9d9c3a3d4d834002ee"},"english":"You look as healthy as ever.","pidgin":"You fresh bahd","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cba19c3a3d4d834002ef"},"english":"You look as healthy as ever.","pidgin":"You fresh bahd","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cba4c083bcb242fee6a5"},"english":"You look as healthy as ever.","pidgin":"You fresh bahd","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cbaa9c3a3d4d834002f0"},"english":"You look as healthy as ever.","pidgin":"You fresh bahd","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cbb9c083bcb242fee6a6"},"english":"You look as healthy as ever.","pidgin":"You fresh bahd","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cbce9c3a3d4d834002f1"},"english":"I don't really understand what just happened.","pidgin":"I ney di wise the card wey just box","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.37.18.30"}}
+{"_id":{"$oid":"6026cc2a9c3a3d4d834002f2"},"english":"I don't really understand what just happened.","pidgin":"I ney di wise the card wey just box","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cc449c3a3d4d834002f3"},"english":"What was it that brought you to me?","pidgin":"You be bring me na weti so??","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cc489c3a3d4d834002f4"},"english":"What was it that brought you to me?","pidgin":"You be bring me na weti so??","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cc4f9c3a3d4d834002f5"},"english":"What was it that brought you to me?","pidgin":"You be bring me na weti so??","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cc589c3a3d4d834002f6"},"english":"What was it that brought you to me?","pidgin":"You be bring me na weti so??","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cc5a9c3a3d4d834002f7"},"english":"What was it that brought you to me?","pidgin":"You be bring me na weti so??","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cc659c3a3d4d834002f8"},"english":"Stop showing off!","pidgin":"No di show show","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cced9e27a3e8aa3b2758"},"english":"Were you born here?","pidgin":"They born you for wusyt?","date":"12-02-2021","user":{"name":"King Jay Sheval","ip":"10.11.228.104"}}
+{"_id":{"$oid":"6026ceb0e07c014aa0e9cd07"},"english":"I thought we'd be safe here.","pidgin":"I be think say we for dey safe","date":"12-02-2021","user":{"name":"","ip":"10.37.82.116"}}
+{"_id":{"$oid":"6026cec7e07c014aa0e9cd08"},"english":"Will it bother you if I smoke?","pidgin":"E go worry you if I puff?","date":"12-02-2021","user":{"name":"","ip":"10.37.82.116"}}
+{"_id":{"$oid":"6026cecd9e27a3e8aa3b2759"},"english":"She is already married.","pidgin":"Ei don already married.","date":"12-02-2021","user":{"name":"Nick","ip":"10.39.172.124"}}
+{"_id":{"$oid":"6026cee4e07c014aa0e9cd09"},"english":"Will it bother you if I smoke?","pidgin":"E go worry you if I puff?","date":"12-02-2021","user":{"name":"","ip":"10.37.82.116"}}
+{"_id":{"$oid":"6026cefee07c014aa0e9cd0a"},"english":"Will it bother you if I smoke?","pidgin":"E go worry you if I puff?","date":"12-02-2021","user":{"name":"","ip":"10.15.161.126"}}
+{"_id":{"$oid":"6026cf009e27a3e8aa3b275a"},"english":"His lectures are very long.","pidgin":"","date":"12-02-2021","user":{"name":"Debbie","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cf17e07c014aa0e9cd0b"},"english":"You're very rude.","pidgin":"","date":"12-02-2021","user":{"name":"Debbie","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cf359e27a3e8aa3b275b"},"english":"He was among those chosen.","pidgin":"","date":"12-02-2021","user":{"name":"Debbie","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cf489e27a3e8aa3b275c"},"english":"Let's split.","pidgin":"Make we divide","date":"12-02-2021","user":{"name":"Debbie","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026cf79e07c014aa0e9cd0c"},"english":"The bed was too hard.","pidgin":"Di bed strong sotey.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.12.135.75"}}
+{"_id":{"$oid":"6026cf85e07c014aa0e9cd0d"},"english":"It's a short textbook for beginners.","pidgin":"","date":"12-02-2021","user":{"name":"Debbie","ip":"10.12.135.75"}}
+{"_id":{"$oid":"6026cfa09e27a3e8aa3b275d"},"english":"I don't like your family.","pidgin":"I no like your fam.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.12.135.75"}}
+{"_id":{"$oid":"6026cfb7e07c014aa0e9cd0e"},"english":"I have to open my shop.","pidgin":"I get for open my shop.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.12.135.75"}}
+{"_id":{"$oid":"6026cfd59e27a3e8aa3b275e"},"english":"I'll be more than happy to help.","pidgin":"","date":"12-02-2021","user":{"name":"","ip":"10.13.244.211"}}
+{"_id":{"$oid":"6026cfdf9e27a3e8aa3b275f"},"english":"I speak French with Tom and Mary.","pidgin":"I di talk for French with Tom and Mary.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.32.185.71"}}
+{"_id":{"$oid":"6026d0139e27a3e8aa3b2760"},"english":"After what happened, I would've thought Tom would go back to Boston.","pidgin":"After wetin don pass, I be think say Tom for go back for Boston.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.34.31.241"}}
+{"_id":{"$oid":"6026d035e07c014aa0e9cd0f"},"english":"I know how hard that is.","pidgin":"I sabi how strong e be.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.34.31.241"}}
+{"_id":{"$oid":"6026d0769e27a3e8aa3b2761"},"english":"I heard everything you said.","pidgin":"I been hear all wetin you talk.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.32.165.53"}}
+{"_id":{"$oid":"6026d082e07c014aa0e9cd10"},"english":"Please pass me the jam.","pidgin":"","date":"12-02-2021","user":{"name":"Debbie","ip":"10.32.165.53"}}
+{"_id":{"$oid":"6026d0a39e27a3e8aa3b2762"},"english":"In a few days, the baby will be able to walk.","pidgin":"Small time di pikin go dey waka.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.32.165.53"}}
+{"_id":{"$oid":"6026d0b6e07c014aa0e9cd11"},"english":"Leave it behind.","pidgin":"Leave am back.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.32.165.53"}}
+{"_id":{"$oid":"6026d0cce07c014aa0e9cd12"},"english":"I shower every day.","pidgin":"I di wash everyday","date":"12-02-2021","user":{"name":"Debbie","ip":"10.32.165.53"}}
+{"_id":{"$oid":"6026d0e19e27a3e8aa3b2763"},"english":"What a wonderful gift!","pidgin":"I get better present.","date":"12-02-2021","user":{"name":"Debbie","ip":"10.32.165.53"}}
+{"_id":{"$oid":"6026d22ee34e816ff510ff8e"},"english":"I'll call you up tomorrow morning.","pidgin":"","date":"12-02-2021","user":{"name":"","ip":"127.0.0.1"}}
+{"_id":{"$oid":"6026d5d5e34e816ff510ff8f"},"english":"Here's the key to your room.","pidgin":"Na the key this for your room.","date":"12-02-2021","user":{"name":"Jasmin","ip":"127.0.0.1"}}
+{"_id":{"$oid":"6026d6712c41a6581289ca4f"},"english":"You don't look that good.","pidgin":"You no get swag.","date":"12-02-2021","user":{"name":"Rodriq","ip":"10.12.200.233"}}
+{"_id":{"$oid":"6026d9f42c41a6581289ca50"},"english":"We're safe in here, aren't we?","pidgin":"We dey safe for inside here or we no deh?","date":"12-02-2021","user":{"name":"","ip":"10.37.19.11"}}
+{"_id":{"$oid":"6026da742c41a6581289ca51"},"english":"He thinks that he is a great poet.","pidgin":"Yi think say yi be some big poet","date":"12-02-2021","user":{"name":"","ip":"10.9.27.143"}}
+{"_id":{"$oid":"6026daa62c41a6581289ca52"},"english":"I live alone.","pidgin":"I di stay me one","date":"12-02-2021","user":{"name":"","ip":"10.39.236.138"}}
+{"_id":{"$oid":"6026dad27eb884e736fc454b"},"english":"Why aren't you looking for a job?","pidgin":"Why you no di find work?","date":"12-02-2021","user":{"name":"","ip":"10.36.40.162"}}
+{"_id":{"$oid":"6026daf77eb884e736fc454c"},"english":"It's my brother's.","pidgin":"Na my brother ","date":"12-02-2021","user":{"name":"","ip":"10.97.20.110"}}
+{"_id":{"$oid":"6026db892c41a6581289ca53"},"english":"I like living here.","pidgin":"I like for stay for here.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.32.165.53"}}
+{"_id":{"$oid":"6026dc517eb884e736fc454d"},"english":"I wanted to discuss this with you yesterday, but you didn't seem to want to listen.","pidgin":"I be story with you yesterday but you u no be want hear.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.14.25.48"}}
+{"_id":{"$oid":"6026dc9d2c41a6581289ca54"},"english":"Even Tom wasn't able to answer the teacher's questions.","pidgin":"Tom too no be fit answer the teacher yi questions.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.9.27.143"}}
+{"_id":{"$oid":"6026dce17eb884e736fc454e"},"english":"They treat their employees well.","pidgin":"Them di treat their work people fine.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.13.244.211"}}
+{"_id":{"$oid":"6026dd167eb884e736fc454f"},"english":"You have our respect.","pidgin":"You get wa respect \r\n","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.11.97.70"}}
+{"_id":{"$oid":"6026dd1b7eb884e736fc4550"},"english":"He's here to protect you.","pidgin":"Yi deh here for look cut you.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.38.231.42"}}
+{"_id":{"$oid":"6026dd392c41a6581289ca55"},"english":"I don't want to tell my parents.","pidgin":"I no wan tell  ma old people","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.11.97.70"}}
+{"_id":{"$oid":"6026dd4e7eb884e736fc4551"},"english":"I had a bad stomachache.","pidgin":"I be get some bad belle bite.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.34.68.103"}}
+{"_id":{"$oid":"6026dd727eb884e736fc4552"},"english":"When did you buy it?","pidgin":"You buyam na which day?","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.11.228.104"}}
+{"_id":{"$oid":"6026dd887eb884e736fc4553"},"english":"I'm sorry, today is fully booked.","pidgin":"I be sorry today be tight ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.77.100"}}
+{"_id":{"$oid":"6026dda82c41a6581289ca56"},"english":"He stole my heart.","pidgin":"ei theif ma heart ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.77.100"}}
+{"_id":{"$oid":"6026ddcc2c41a6581289ca57"},"english":"I'd like to talk with you privately.","pidgin":"I go like make we talk for some quiet place.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.38.10.19"}}
+{"_id":{"$oid":"6026ddd12c41a6581289ca58"},"english":"He stole my heart.","pidgin":"ei theif ma heart ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.77.100"}}
+{"_id":{"$oid":"6026ddfd2c41a6581289ca59"},"english":"How did you meet him?","pidgin":"How you do metop yi","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.77.100"}}
+{"_id":{"$oid":"6026de2d2c41a6581289ca5a"},"english":"That'll be very difficult to do.","pidgin":"ei go hard for doam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.77.100"}}
+{"_id":{"$oid":"6026de587eb884e736fc4554"},"english":"We'll try it again tomorrow.","pidgin":"We go tryam again tomorrow ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.77.100"}}
+{"_id":{"$oid":"6026de6f7eb884e736fc4555"},"english":"I don't know all of them.","pidgin":"I no no all them ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.77.100"}}
+{"_id":{"$oid":"6026de757eb884e736fc4556"},"english":"No one could find the answer.","pidgin":"No person be fit know the answer.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.8.73.76"}}
+{"_id":{"$oid":"6026dea37eb884e736fc4557"},"english":"Her father has a general store.","pidgin":"Yi papa get store wey na for all man.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.35.65.206"}}
+{"_id":{"$oid":"6026deb47eb884e736fc4558"},"english":"How does it work?","pidgin":"ei de work na how ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"6026dec32c41a6581289ca5b"},"english":"Thanks a lot.","pidgin":"Thanks plenty.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.11.131.158"}}
+{"_id":{"$oid":"6026dede2c41a6581289ca5c"},"english":"There's nothing to be scared of.","pidgin":"Nothing no deh for fear.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.15.186.69"}}
+{"_id":{"$oid":"6026dee02c41a6581289ca5d"},"english":"It wasn't difficult to do that.","pidgin":"ei no be hard for doam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"6026df0a2c41a6581289ca5e"},"english":"How can I know if a boy likes me?","pidgin":"I fit know na how say boy like me ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"6026df442c41a6581289ca5f"},"english":"I wish people would stop staring at me.","pidgin":"I wish say people dem for stop for di look me.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.14.17.84"}}
+{"_id":{"$oid":"6026df542c41a6581289ca60"},"english":"How can I know if a boy likes me?","pidgin":"I fit know na how say boy like me ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.82.109"}}
+{"_id":{"$oid":"6026df727eb884e736fc4559"},"english":"I met Tom there.","pidgin":"I metop Tom for de","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.82.109"}}
+{"_id":{"$oid":"6026df8b2c41a6581289ca61"},"english":"Tom could do that.","pidgin":"Tom be fit doam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.82.109"}}
+{"_id":{"$oid":"6026dfa57eb884e736fc455a"},"english":"Tom could do that.","pidgin":"Tom be fit doam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.82.109"}}
+{"_id":{"$oid":"6026e00c2c41a6581289ca62"},"english":"Tom could do that.","pidgin":"Tom be fit doam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.163.168"}}
+{"_id":{"$oid":"6026e0387eb884e736fc455b"},"english":"He is a good doctor.","pidgin":"Yi be good docta","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.163.168"}}
+{"_id":{"$oid":"6026e0407eb884e736fc455c"},"english":"Are you still married?","pidgin":"You still be married?","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.37.45.221"}}
+{"_id":{"$oid":"6026e07a7eb884e736fc455d"},"english":"I read a couple of more chapters before I went to sleep.","pidgin":"I read plenty chapters before I be wan sleep.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.32.185.71"}}
+{"_id":{"$oid":"6026e0a97eb884e736fc455e"},"english":"I'm accustomed to working hard.","pidgin":"I don be use to for work hard.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.39.236.138"}}
+{"_id":{"$oid":"6026e0dc2c41a6581289ca63"},"english":"How well can you dance?","pidgin":"You sabi dance fine?","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026e0ff2c41a6581289ca64"},"english":"She worked for a rich man.","pidgin":"Yi di work for some money man.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.85.39.254"}}
+{"_id":{"$oid":"6026e1022c41a6581289ca65"},"english":"He is a good doctor.","pidgin":"Yi be good docta","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6026e1232c41a6581289ca66"},"english":"I guess it won't matter.","pidgin":"I feel like ei no go work","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6026e1422c41a6581289ca67"},"english":"It's a beautiful sword.","pidgin":"Na fine long cutlas ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6026e1462c41a6581289ca68"},"english":"I guess Tom wasn't really Mary's boyfriend.","pidgin":"I sure say Tom no be be na Mary yi boyfriend.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.11.191.99"}}
+{"_id":{"$oid":"6026e14d7eb884e736fc455f"},"english":"It's a beautiful sword.","pidgin":"Na fine long cutlas ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6026e16f7eb884e736fc4560"},"english":"I was just about to leave.","pidgin":"I be don de road for the go","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6026e1932c41a6581289ca69"},"english":"I'm sorry for calling so late. I just wanted to hear your voice.","pidgin":"I be sorry for call you over late. I be wan just hear na your voice.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.9.163.168"}}
+{"_id":{"$oid":"6026e1a87eb884e736fc4561"},"english":"I know Mary is pretty, but she's not very smart.","pidgin":"I know say Mary fine but yi no too get sense ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6026e1b32c41a6581289ca6a"},"english":"I know Mary is pretty, but she's not very smart.","pidgin":"I know say Mary fine but yi no too get sense ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6026e1b57eb884e736fc4562"},"english":"I want what's mine.","pidgin":"I wan tin wey na ma own.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.9.82.245"}}
+{"_id":{"$oid":"6026e1fb7eb884e736fc4563"},"english":"I want you to watch this video.","pidgin":"I wan make you look this video.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.13.244.211"}}
+{"_id":{"$oid":"6026e21f7eb884e736fc4564"},"english":"I'd like to live near your house.","pidgin":"I go like for stay Conner ya house.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.34.14.131"}}
+{"_id":{"$oid":"6026e2252c41a6581289ca6b"},"english":"I know Mary is pretty, but she's not very smart.","pidgin":"I know say Mary fine but yi no too get sense ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e2362c41a6581289ca6c"},"english":"I know Mary is pretty, but she's not very smart.","pidgin":"I know say Mary fine but yi no too get sense ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e2392c41a6581289ca6d"},"english":"He just texted me.","pidgin":"Yi just text me.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.8.149.25"}}
+{"_id":{"$oid":"6026e25e2c41a6581289ca6e"},"english":"I'm going to have to cancel my appointment.","pidgin":"I get for quara ma program ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e26b7eb884e736fc4565"},"english":"Most boys know his name.","pidgin":"Plenty boys them sabe yi name.","date":"12-02-2021","user":{"name":"Lady heart","ip":"10.84.140.24"}}
+{"_id":{"$oid":"6026e28e2c41a6581289ca6f"},"english":"You should take care of your sick mother.","pidgin":"Take care for ya sick old woman ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e2c12c41a6581289ca70"},"english":"Wait, why am I telling you this?","pidgin":"Wait oh why I de first tell u this thing ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e2df2c41a6581289ca71"},"english":"Wait, why am I telling you this?","pidgin":"Wait oh why I de first tell u this thing ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e2eb2c41a6581289ca72"},"english":"Wait, why am I telling you this?","pidgin":"Wait oh why I de first tell u this thing ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e2f77eb884e736fc4566"},"english":"Wait, why am I telling you this?","pidgin":"Wait oh why I de first tell u this thing ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e3162c41a6581289ca73"},"english":"You ought not to make fun of them.","pidgin":"You no suppose for laugh them ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e31f7eb884e736fc4567"},"english":"You ought not to make fun of them.","pidgin":"You no suppose for laugh them ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026e36e7eb884e736fc4568"},"english":"I love you from the bottom of my heart.","pidgin":"I done you with my under belle","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"6026e3852c41a6581289ca74"},"english":"I love you from the bottom of my heart.","pidgin":"I done you with my under belle","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"6026e3a37eb884e736fc4569"},"english":"I thought that was my job.","pidgin":"I check say na ma bolo that","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"6026e3d57eb884e736fc456a"},"english":"I thought that was my job.","pidgin":"I check say na ma bolo that","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"6026e3e07eb884e736fc456b"},"english":"I thought that was my job.","pidgin":"I check say na ma bolo that","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"6026e3f27eb884e736fc456c"},"english":"I thought that was my job.","pidgin":"I check say na ma bolo that","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"6026ef1358dfe9a66aeec179"},"english":"They're not coming.","pidgin":"Them no de cam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.32.185.71"}}
+{"_id":{"$oid":"6026ef42af3201bd0b749e14"},"english":"If you need anything, just call.","pidgin":"If need something signa me","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.32.185.71"}}
+{"_id":{"$oid":"6026ef5baf3201bd0b749e15"},"english":"He is constantly complaining.","pidgin":"Yi d ever complain ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.32.185.71"}}
+{"_id":{"$oid":"6026efb058dfe9a66aeec17a"},"english":"I left my jacket in the classroom.","pidgin":"I forget my jacket for class","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.36.37.172"}}
+{"_id":{"$oid":"6026effbaf3201bd0b749e16"},"english":"Who knows, maybe Christmas in Boston won't be so bad after all.","pidgin":"Who no sometime xmass for Boston no go bad at all","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.82.109"}}
+{"_id":{"$oid":"6026f03158dfe9a66aeec17b"},"english":"You have only to give him a little help.","pidgin":"U get for helep Yi only small","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.82.109"}}
+{"_id":{"$oid":"6026f05a58dfe9a66aeec17c"},"english":"Tom wasn't serious, was he?","pidgin":"Tom no be bi serious atall or ei be bi?","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.9.82.109"}}
+{"_id":{"$oid":"6026f0ecaf3201bd0b749e17"},"english":"You have a secret admirer.","pidgin":"U get some person whe don you for sya","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.37.82.116"}}
+{"_id":{"$oid":"6026f14a58dfe9a66aeec17d"},"english":"I know it's going to be unpleasant to talk about the accident.","pidgin":"I know say ei no go fine for talk about the accident ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.34.49.141"}}
+{"_id":{"$oid":"6026f1bc58dfe9a66aeec17e"},"english":"I got fined.","pidgin":"The fine me","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.251.250"}}
+{"_id":{"$oid":"6026f21daf3201bd0b749e18"},"english":"Is he at home?","pidgin":"Yi d huz?","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.39.168.78"}}
+{"_id":{"$oid":"6026f22f58dfe9a66aeec17f"},"english":"Is he at home?","pidgin":"Yi d huz?","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.39.168.78"}}
+{"_id":{"$oid":"6026f255af3201bd0b749e19"},"english":"I fell off my bike.","pidgin":"I fall ontop bike ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.39.168.78"}}
+{"_id":{"$oid":"6026f28958dfe9a66aeec180"},"english":"I fell off my bike.","pidgin":"I fall ontop bike ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.39.168.78"}}
+{"_id":{"$oid":"6026f2cb58dfe9a66aeec181"},"english":"It's wrong to deceive people, but worse to deceive yourself.","pidgin":"ei be bad for lie people and even worse for lie you sep sep","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.15.190.6"}}
+{"_id":{"$oid":"6026f2fa58dfe9a66aeec182"},"english":"Did you put it somewhere?","pidgin":"You putam for some place?","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.15.190.6"}}
+{"_id":{"$oid":"6026f31faf3201bd0b749e1a"},"english":"Could you call me back a bit later?","pidgin":"U fit call me after?","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.15.190.6"}}
+{"_id":{"$oid":"6026f33958dfe9a66aeec183"},"english":"Could you call me back a bit later?","pidgin":"U fit call me after?","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.15.190.6"}}
+{"_id":{"$oid":"6026f33aaf3201bd0b749e1b"},"english":"Could you call me back a bit later?","pidgin":"U fit call me after?","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.75.23.151"}}
+{"_id":{"$oid":"6026f36baf3201bd0b749e1c"},"english":"As soon as I can afford to buy a house, I will.","pidgin":"When I just get way for buy huz I go dowam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.75.23.151"}}
+{"_id":{"$oid":"6026f39c58dfe9a66aeec184"},"english":"You have to pay taxes.","pidgin":"You need for pay tax.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f3b458dfe9a66aeec185"},"english":"What time does your plane leave?","pidgin":"Wuna plan go start go na which time?","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f3ccaf3201bd0b749e1d"},"english":"He's English, but lives in India.","pidgin":"ei be na english man but yi d stay for india","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f3d6af3201bd0b749e1e"},"english":"What time does your plane leave?","pidgin":"Wuna plan go start go na which time?","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f3e4af3201bd0b749e1f"},"english":"You could be one of them.","pidgin":"One fit be one of them","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f3f658dfe9a66aeec186"},"english":"Please send me a picture of yourself.","pidgin":"Abeg send me ya photo","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f3fcaf3201bd0b749e20"},"english":"She emerged victorious in the struggle.","pidgin":"Na he win for that game.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f41658dfe9a66aeec187"},"english":"We are looking for somebody who can use a computer.","pidgin":"We di fine oersop wer fit use computer.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f41caf3201bd0b749e21"},"english":"Tom was too busy to help us.","pidgin":"Tom be over busy for helep we","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f427af3201bd0b749e22"},"english":"That's a huge achievement.","pidgin":"Na big achievement that.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f43958dfe9a66aeec188"},"english":"I've had a headache since yesterday.","pidgin":"I get headache since yesterday.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f454af3201bd0b749e23"},"english":"She lit the candles.","pidgin":"Na he light that camdle.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.59.88"}}
+{"_id":{"$oid":"6026f45758dfe9a66aeec189"},"english":"I'm being promoted.","pidgin":"De don change my level","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f48058dfe9a66aeec18a"},"english":"I just wanted to ask you a few questions.","pidgin":"I be wan just ask you some small question them","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f4b7af3201bd0b749e24"},"english":"I knew Tom knew who was going to do that.","pidgin":"I be know say Tom no person whe get for dowam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f4d658dfe9a66aeec18b"},"english":"I'll cook it if you eat it.","pidgin":"I go cook if u chopam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f4e358dfe9a66aeec18c"},"english":"I'll cook it if you eat it.","pidgin":"I go cook if u chopam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f4ea58dfe9a66aeec18d"},"english":"I'll cook it if you eat it.","pidgin":"I go cook if u chopam","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f50a58dfe9a66aeec18e"},"english":"We hardly ever see you around here anymore.","pidgin":"Ei hard for see you for here","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.14.108.58"}}
+{"_id":{"$oid":"6026f50daf3201bd0b749e25"},"english":"It's a true story.","pidgin":"De tory na true","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f52a58dfe9a66aeec18f"},"english":"You're so perfect.","pidgin":"You over corect","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f536af3201bd0b749e26"},"english":"You're so perfect.","pidgin":"You over corect","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.38.205.57"}}
+{"_id":{"$oid":"6026f6eaaf3201bd0b749e27"},"english":"Some people relax by reading.","pidgin":"Some man he own way for relac na to read.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.6.145"}}
+{"_id":{"$oid":"6026f6fbaf3201bd0b749e28"},"english":"Let's get the party started.","pidgin":"Make we start the party.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.6.145"}}
+{"_id":{"$oid":"6026f714af3201bd0b749e29"},"english":"Tom wasn't worried about his grades.","pidgin":"Tom no be worry about he mark.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.6.145"}}
+{"_id":{"$oid":"6026f75b58dfe9a66aeec190"},"english":"That's possible.","pidgin":"Ei be possible.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.6.145"}}
+{"_id":{"$oid":"6026f76a58dfe9a66aeec191"},"english":"He saved himself somehow.","pidgin":"Na he helep he self.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.9.6.145"}}
+{"_id":{"$oid":"6026f7b558dfe9a66aeec192"},"english":"He saved himself somehow.","pidgin":"Na he helep he self.","date":"12-02-2021","user":{"name":"Mr Achu","ip":"10.37.111.40"}}
+{"_id":{"$oid":"6026f8a558dfe9a66aeec193"},"english":"You don't have the guts.","pidgin":"You no get de mind","date":"12-02-2021","user":{"name":"Unice","ip":"10.14.108.58"}}
+{"_id":{"$oid":"6026f8e858dfe9a66aeec194"},"english":"You don't have the guts.","pidgin":"You no get de mind","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f90258dfe9a66aeec195"},"english":"There is a right time for everything.","pidgin":"Time dey for all tin ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f91d58dfe9a66aeec196"},"english":"Tom speaks French much better than Mary does.","pidgin":"Tom di tok french pass mary ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f93558dfe9a66aeec197"},"english":"Can you come with me?","pidgin":"You fit cam with me ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f94a58dfe9a66aeec198"},"english":"Can you come with me?","pidgin":"You fit cam with me ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f95858dfe9a66aeec199"},"english":"I thought I heard you.","pidgin":"I think say i hear","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f96658dfe9a66aeec19a"},"english":"I thought I heard you.","pidgin":"I think say i hear","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f96faf3201bd0b749e2a"},"english":"I thought I heard you.","pidgin":"I think say i hear","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f976af3201bd0b749e2b"},"english":"I thought I heard you.","pidgin":"I think say i hear","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f98baf3201bd0b749e2c"},"english":"We need more people like you.","pidgin":"We need plenty people like you ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f9afaf3201bd0b749e2d"},"english":"We need more people like you.","pidgin":"We need plenty people like you ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f9c0af3201bd0b749e2e"},"english":"Let me try again.","pidgin":"Make i try again ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f9d158dfe9a66aeec19b"},"english":"Did I get it right?","pidgin":"I gettam correct","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f9ecaf3201bd0b749e2f"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f9f3af3201bd0b749e30"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026f9fcaf3201bd0b749e31"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026fa01af3201bd0b749e32"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026fa06af3201bd0b749e33"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026fa09af3201bd0b749e34"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026fa0e58dfe9a66aeec19c"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026fa12af3201bd0b749e35"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026fa1658dfe9a66aeec19d"},"english":"We all know what happened here.","pidgin":"All we know thing way happen for here ","date":"12-02-2021","user":{"name":"Unice","ip":"10.87.4.165"}}
+{"_id":{"$oid":"6026fcd1af3201bd0b749e36"},"english":"What's the good news?","pidgin":"Weti be this bon journal?","date":"12-02-2021","user":{"name":"Majestic","ip":"10.36.37.172"}}
+{"_id":{"$oid":"60270165af3201bd0b749e37"},"english":"You're so perfect.","pidgin":"You over corect","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.36.40.162"}}
+{"_id":{"$oid":"6027017baf3201bd0b749e38"},"english":"Nothing is going to happen.","pidgin":"Nothin no go happen","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.36.40.162"}}
+{"_id":{"$oid":"6027019caf3201bd0b749e39"},"english":"I thought you'd gotten lost.","pidgin":"I check say u loss","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.36.40.162"}}
+{"_id":{"$oid":"602701e5af3201bd0b749e3a"},"english":"I'm sorry for not being more supportive.","pidgin":"Sorry say I no be too d ya side","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.11.228.104"}}
+{"_id":{"$oid":"6027021d58dfe9a66aeec19e"},"english":"This is the last time I'll ask you to do anything for me.","pidgin":"Na the last time this I go ever ask u for helep me do something","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.11.228.104"}}
+{"_id":{"$oid":"6027027b58dfe9a66aeec19f"},"english":"Send it to me when you have time.","pidgin":"Senam for me when u get time ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.251.250"}}
+{"_id":{"$oid":"6027029458dfe9a66aeec1a0"},"english":"Send it to me when you have time.","pidgin":"Senam for me when u get time ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.251.250"}}
+{"_id":{"$oid":"602702a758dfe9a66aeec1a1"},"english":"Send it to me when you have time.","pidgin":"Senam for me when u get time ","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.251.250"}}
+{"_id":{"$oid":"602702dc58dfe9a66aeec1a2"},"english":"I want something to read on the train.","pidgin":"I wan somethin for pass time with inside train","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.251.250"}}
+{"_id":{"$oid":"602702f558dfe9a66aeec1a3"},"english":"Don't take me for granted.","pidgin":"No take me d joke","date":"12-02-2021","user":{"name":"Roudorf","ip":"10.35.251.250"}}
+{"_id":{"$oid":"6027703dee59bf65bcd8f5a2"},"english":"Your friend is here.","pidgin":"Ya friend dey here.","date":"13-02-2021","user":{"name":"Rodriq","ip":"10.37.19.11"}}
+{"_id":{"$oid":"602774faee59bf65bcd8f5a3"},"english":"People learn from experience.","pidgin":"She’s beautiful ","date":"13-02-2021","user":{"name":"Suspect","ip":"10.34.94.34"}}
+{"_id":{"$oid":"602775405ead3d8774af364b"},"english":"We must separate politics from religion.","pidgin":"We must separate gregre from papa God","date":"13-02-2021","user":{"name":"Suspect","ip":"10.14.108.58"}}
+{"_id":{"$oid":"6027755aee59bf65bcd8f5a4"},"english":"Tom isn't wearing his new coat.","pidgin":"Tom nodi wear yei new coat","date":"13-02-2021","user":{"name":"Suspect","ip":"10.11.131.158"}}
+{"_id":{"$oid":"60277573ee59bf65bcd8f5a5"},"english":"What did they hit you with?","pidgin":"Wati them use nack you?","date":"13-02-2021","user":{"name":"Suspect","ip":"10.75.23.151"}}
+{"_id":{"$oid":"60277742ee59bf65bcd8f5a6"},"english":"My bag was stolen.","pidgin":"They thief ma bag","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.12.135.75"}}
+{"_id":{"$oid":"60277748ee59bf65bcd8f5a7"},"english":"My bag was stolen.","pidgin":"They thief ma bag","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.12.135.75"}}
+{"_id":{"$oid":"60277753ee59bf65bcd8f5a8"},"english":"Tom is investigating.","pidgin":"Ton di chekam","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.12.135.75"}}
+{"_id":{"$oid":"6027775aee59bf65bcd8f5a9"},"english":"You and I aren't like that.","pidgin":"You and me no dey so","date":"13-02-2021","user":{"name":"Bassey ","ip":"10.9.27.143"}}
+{"_id":{"$oid":"6027776b5ead3d8774af364c"},"english":"We all deserve a chance.","pidgin":"We all need chance","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.12.135.75"}}
+{"_id":{"$oid":"602777815ead3d8774af364d"},"english":"He has three sons.","pidgin":"Ei get 3 boy pikin them","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.12.135.75"}}
+{"_id":{"$oid":"6027778e5ead3d8774af364e"},"english":"Let's try calling Tom.","pidgin":"Make we try call Tom.","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.12.135.75"}}
+{"_id":{"$oid":"602777aa5ead3d8774af364f"},"english":"In addition to English, she speaks French fluently.","pidgin":"Apart from English he di talk french fine.","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.12.135.75"}}
+{"_id":{"$oid":"602778705ead3d8774af3650"},"english":"In addition to English, she speaks French fluently.","pidgin":"Apart from English he di talk french fine.","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.10.68.189"}}
+{"_id":{"$oid":"60277875ee59bf65bcd8f5aa"},"english":"In addition to English, she speaks French fluently.","pidgin":"Apart from English he di talk french fine.","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.10.68.189"}}
+{"_id":{"$oid":"602778905ead3d8774af3651"},"english":"I should've known this.","pidgin":"I be suppose for know ","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.10.68.189"}}
+{"_id":{"$oid":"6027789f5ead3d8774af3652"},"english":"What do you think of this hat?","pidgin":"You check wetti about this cap","date":"13-02-2021","user":{"name":"Mr Achu","ip":"10.10.68.189"}}
+{"_id":{"$oid":"602778c5ee59bf65bcd8f5ab"},"english":"Everyone's fine.","pidgin":"All man deh chack","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"602778eeee59bf65bcd8f5ac"},"english":"Does everybody understand?","pidgin":"Wuna wise nor?","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"6027790c5ead3d8774af3653"},"english":"I stayed at a cheap hotel.","pidgin":"I cale for some low class cabin ehhh","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"60277914ee59bf65bcd8f5ad"},"english":"I stayed at a cheap hotel.","pidgin":"I cale for some low class cabin ehhh","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"602779335ead3d8774af3654"},"english":"He is still sitting on the bench.","pidgin":"Ei deh still shedon for the chair","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"6027794aee59bf65bcd8f5ae"},"english":"We live in a remote area.","pidgin":"We deh stay for ghetto","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"602779575ead3d8774af3655"},"english":"I bought a new sewing machine.","pidgin":"I buy new sewing  machines","date":"13-02-2021","user":{"name":"Bassey ","ip":"10.32.155.121"}}
+{"_id":{"$oid":"602779645ead3d8774af3656"},"english":"There isn't enough cake for everyone.","pidgin":"The cake no fit go round.","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"602779685ead3d8774af3657"},"english":"There isn't enough cake for everyone.","pidgin":"The cake no fit go round.","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"60277974ee59bf65bcd8f5af"},"english":"There isn't enough cake for everyone.","pidgin":"The cake no fit go round.","date":"13-02-2021","user":{"name":"Neil","ip":"10.39.172.124"}}
+{"_id":{"$oid":"602780c7ee59bf65bcd8f5b0"},"english":"Let Tom stay.","pidgin":"Make Tom shidon","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.34.49.141"}}
+{"_id":{"$oid":"602780dcee59bf65bcd8f5b1"},"english":"Tom shouldn't have told me.","pidgin":"Tom no for tell me","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.34.49.141"}}
+{"_id":{"$oid":"602780ff5ead3d8774af3658"},"english":"I just can't stop crying.","pidgin":"I no fit stop for d cry","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.34.49.141"}}
+{"_id":{"$oid":"60278113ee59bf65bcd8f5b2"},"english":"I need a little advice.","pidgin":"I need small sense talk","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.34.49.141"}}
+{"_id":{"$oid":"60278133ee59bf65bcd8f5b3"},"english":"Tom knew that Mary loved him.","pidgin":"Tom be know say Mary don yi","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.34.49.141"}}
+{"_id":{"$oid":"60278177ee59bf65bcd8f5b4"},"english":"Did it ever occur to you that I might be busy this afternoon?","pidgin":"You be ever imagin say I go be busy this afternoon?","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602781935ead3d8774af3659"},"english":"I had a good job.","pidgin":"I be get fine bolo","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602781ccee59bf65bcd8f5b5"},"english":"I don't remember where I put my key.","pidgin":"I no member place whe I kip my key","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602781eb5ead3d8774af365a"},"english":"It's too thin.","pidgin":"ei too dry ","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602781fcee59bf65bcd8f5b6"},"english":"It's too thin.","pidgin":"ei too dry ","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602782265ead3d8774af365b"},"english":"Why won't anybody talk about this?","pidgin":"Why no man no di talk aboutam","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6027825bee59bf65bcd8f5b7"},"english":"Look, I don't want to lose my job.","pidgin":"See eeh I no wan loss ma bolo","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"60278265ee59bf65bcd8f5b8"},"english":"Look, I don't want to lose my job.","pidgin":"See eeh I no wan loss ma bolo","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"60278285ee59bf65bcd8f5b9"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602782bf5ead3d8774af365c"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602782d05ead3d8774af365d"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602782df5ead3d8774af365e"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602782e65ead3d8774af365f"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602782feee59bf65bcd8f5ba"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602783065ead3d8774af3660"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6027831aee59bf65bcd8f5bb"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602783335ead3d8774af3661"},"english":"Everybody wants recognition.","pidgin":"All man wan make de know yi","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6027833bee59bf65bcd8f5bc"},"english":"Everybody wants recognition.","pidgin":"All man wan make de know yi","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602783465ead3d8774af3662"},"english":"Everybody wants recognition.","pidgin":"All man wan make de know yi","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6027834e5ead3d8774af3663"},"english":"Everybody wants recognition.","pidgin":"All man wan make de know yi","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"60278365ee59bf65bcd8f5bd"},"english":"I didn't know you could speak French.","pidgin":"I no be know say u fit langwa french","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"60278379ee59bf65bcd8f5be"},"english":"Go to sleep.","pidgin":"Go nang","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"60278385ee59bf65bcd8f5bf"},"english":"Go to sleep.","pidgin":"Go nang","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"6027839d5ead3d8774af3664"},"english":"What did you watch?","pidgin":"You look weti","date":"13-02-2021","user":{"name":"Roudorf","ip":"10.13.201.101"}}
+{"_id":{"$oid":"602787675d6d7545fdc4779e"},"english":"Maybe I exaggerated.","pidgin":"Ei bi like say a bi add small salt fo the tori","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602787885d6d7545fdc4779f"},"english":"I went to Tom's apartment.","pidgin":"A bi bi for Tom ei house","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"60278798ed9a72b4418ab4ae"},"english":"I went to Tom's apartment.","pidgin":"A bi bi for Tom ei house","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602787b15d6d7545fdc477a0"},"english":"This heat is unbearable.","pidgin":"A no fit take this heat","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602787d7ed9a72b4418ab4af"},"english":"It is true that she is pretty, but she is selfish.","pidgin":"Ei true say ei fine but na japanese handbrake","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602787e5ed9a72b4418ab4b0"},"english":"It is true that she is pretty, but she is selfish.","pidgin":"Ei true say ei fine but na japanese handbrake","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602787ef5d6d7545fdc477a1"},"english":"It is true that she is pretty, but she is selfish.","pidgin":"Ei true say ei fine but na japanese handbrake","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602787f55d6d7545fdc477a2"},"english":"It is true that she is pretty, but she is selfish.","pidgin":"Ei true say ei fine but na japanese handbrake","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"6027880a5d6d7545fdc477a3"},"english":"Can we get started with the game?","pidgin":"Make we start the game?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"6027881ced9a72b4418ab4b1"},"english":"Why are you out at this hour?","pidgin":"Weti you di do for outside for this kind time","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"6027882f5d6d7545fdc477a4"},"english":"I need evidence.","pidgin":"How you take know?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602788375d6d7545fdc477a5"},"english":"I need evidence.","pidgin":"How you take know?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"6027883e5d6d7545fdc477a6"},"english":"I need evidence.","pidgin":"How you take know?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"6027884ded9a72b4418ab4b2"},"english":"Face facts!","pidgin":"Shine your eye!","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602788675d6d7545fdc477a7"},"english":"I didn't know you were that good at French.","pidgin":"A no bi sabi say you fit tok french fine fine","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"6027886eed9a72b4418ab4b3"},"english":"I didn't know you were that good at French.","pidgin":"A no bi sabi say you fit tok french fine fine","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"60278893ed9a72b4418ab4b4"},"english":"I have so much to show you.","pidgin":"A get plenty thing them weh I want show you","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602788a15d6d7545fdc477a8"},"english":"We'll take it.","pidgin":"Package am.","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602788aa5d6d7545fdc477a9"},"english":"We'll take it.","pidgin":"Package am.","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602788bfed9a72b4418ab4b5"},"english":"We'll take it.","pidgin":"Package am.","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602788ce5d6d7545fdc477aa"},"english":"We'll take it.","pidgin":"Package am.","date":"13-02-2021","user":{"name":"Ekong","ip":"10.34.31.241"}}
+{"_id":{"$oid":"602789e6ed9a72b4418ab4b6"},"english":"I figured I'd find you here.","pidgin":"A bi know say na for here you go be","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"602789f8ed9a72b4418ab4b7"},"english":"Tom wants me to stay away from him.","pidgin":"Tom tok say make a no corner ei","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278a065d6d7545fdc477ab"},"english":"Tom wants me to stay away from him.","pidgin":"Tom tok say make a no corner ei","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278a0c5d6d7545fdc477ac"},"english":"Tom wants me to stay away from him.","pidgin":"Tom tok say make a no corner ei","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278a345d6d7545fdc477ad"},"english":"Many friends saw him off.","pidgin":"Plenty of him friends them waka with ei as ei dey go.","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278a515d6d7545fdc477ae"},"english":"The prophecy came true.","pidgin":"Thing wey they talk before don happen now","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278a655d6d7545fdc477af"},"english":"I still need to talk to you.","pidgin":"We get for talk.","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278a735d6d7545fdc477b0"},"english":"Whose seat is this?","pidgin":"Na who get this chair?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278a7aed9a72b4418ab4b8"},"english":"Whose seat is this?","pidgin":"Na who get this chair?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278a92ed9a72b4418ab4b9"},"english":"How did you know where I'd be?","pidgin":"How you take know say na for here a go be?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278aaced9a72b4418ab4ba"},"english":"How did you know where I'd be?","pidgin":"How you take know say na for here a go be?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278ac0ed9a72b4418ab4bb"},"english":"What's the matter?","pidgin":"Wetin dey up?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278af0ed9a72b4418ab4bc"},"english":"Without me, you won't be able to do it.","pidgin":"If a no bi dey dey eh, ei no for hold.","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278afc5d6d7545fdc477b1"},"english":"What did I tell you?","pidgin":"Wetin a tok?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"60278b0f5d6d7545fdc477b2"},"english":"What did I tell you?","pidgin":"Wetin a tok?","date":"13-02-2021","user":{"name":"Ekong","ip":"10.15.186.69"}}
+{"_id":{"$oid":"6027fd5ca9b3f245f0feaa66"},"english":"I don't think that we're going to be able to catch the train that you want to catch.","pidgin":"","date":"13-02-2021","user":{"name":"","ip":"172.16.1.1"}}
+{"_id":{"$oid":"6028071ea9b3f245f0feaa67"},"english":"I don't think that we're going to be able to catch the train that you want to catch.","pidgin":"","date":"13-02-2021","user":{"name":"","ip":"172.16.1.1"}}
+{"_id":{"$oid":"6028365dfee6c1b0adcaf414"},"english":"What exactly are they doing in there?","pidgin":"Westin dem dey do for there.","date":"13-02-2021","user":{"name":"","ip":"10.33.39.40"}}
+{"_id":{"$oid":"60283704fee6c1b0adcaf415"},"english":"Fill in the blanks.","pidgin":"i done de get bad bad dreams ","date":"13-02-2021","user":{"name":"wanic","ip":"10.32.205.200"}}
+{"_id":{"$oid":"60283beffee6c1b0adcaf416"},"english":"You and I aren't like that.","pidgin":"You and me no dey so","date":"13-02-2021","user":{"name":"Bassey ","ip":"10.34.49.141"}}
+{"_id":{"$oid":"602880867b0253806a3c27f7"},"english":"The room smelled of tobacco.","pidgin":"The room d smell mbanga","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"602880af7b0253806a3c27f8"},"english":"I want you to go upstairs.","pidgin":"I wan make u go for upstair","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"602880d9200e9afa569d4a7b"},"english":"I want you to go upstairs.","pidgin":"I wan make u go for upstair","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.35.65.206"}}
+{"_id":{"$oid":"60288117200e9afa569d4a7c"},"english":"His story turned out to be true.","pidgin":"Yi tory ton ton comot true","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602881357b0253806a3c27f9"},"english":"Do you still have a headache?","pidgin":"Ya head de still egg","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"60288162200e9afa569d4a7d"},"english":"I promise I'll protect you.","pidgin":"I get ya back I promise","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602881747b0253806a3c27fa"},"english":"I promise I'll protect you.","pidgin":"I get ya back I promise","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602881a7200e9afa569d4a7e"},"english":"Tom loves Mary, but Mary loves John.","pidgin":"Tom don Mary but the ngah no don yi","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602881d6200e9afa569d4a7f"},"english":"You'll feel better now.","pidgin":"You go d cagkwe naw","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602882117b0253806a3c27fb"},"english":"It is imperative that we find another way out of this situation.","pidgin":"ei be good say make we check another sense for this mata","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602882237b0253806a3c27fc"},"english":"It is imperative that we find another way out of this situation.","pidgin":"ei be good say make we check another sense for this mata","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602882357b0253806a3c27fd"},"english":"I wasn't involved.","pidgin":"I no be be d","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"6028825a200e9afa569d4a80"},"english":"Did they say what happened?","pidgin":"De talk thing whe happen?","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602882847b0253806a3c27fe"},"english":"You could've told me the truth.","pidgin":"U for tell me de truth","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602882ac200e9afa569d4a81"},"english":"Are you sure of your answer?","pidgin":"U be sure for this ansa","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602882d97b0253806a3c27ff"},"english":"She has a strong dislike of insects.","pidgin":"Yi no like insect atall","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"602882fe7b0253806a3c2800"},"english":"I know you're busy, too.","pidgin":"I know say u too be busy","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"6028831a7b0253806a3c2801"},"english":"I hate you.","pidgin":"I no like u","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.8.73.76"}}
+{"_id":{"$oid":"60288372200e9afa569d4a82"},"english":"She wrote 5 novels in 5 years.","pidgin":"She write 5 tory book them for 5 yess","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.39.143.244"}}
+{"_id":{"$oid":"6028837f7b0253806a3c2802"},"english":"She wrote 5 novels in 5 years.","pidgin":"She write 5 tory book them for 5 yess","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.39.143.244"}}
+{"_id":{"$oid":"602883ba7b0253806a3c2803"},"english":"I've spent all the money you gave me.","pidgin":"I don bole all the doh whe you gi me","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.39.143.244"}}
+{"_id":{"$oid":"602883e8200e9afa569d4a83"},"english":"I've spent all the money you gave me.","pidgin":"I don bole all the doh whe you gi me","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.39.143.244"}}
+{"_id":{"$oid":"60288408200e9afa569d4a84"},"english":"This mouse was killed by my cat.","pidgin":"Na ma pusy kill this rat","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.39.143.244"}}
+{"_id":{"$oid":"602884857b0253806a3c2805"},"english":"The workers took pride in their work.","pidgin":"The bolo men dem d hayup for dia bolo","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.38.10.19"}}
+{"_id":{"$oid":"602884a77b0253806a3c2806"},"english":"The workers took pride in their work.","pidgin":"The bolo men dem d hayup for dia bolo","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.38.10.19"}}
+{"_id":{"$oid":"602884c77b0253806a3c2807"},"english":"This seems risky.","pidgin":"ei be like risk too d de ooh","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.38.10.19"}}
+{"_id":{"$oid":"602884f1200e9afa569d4a85"},"english":"I've got a lot of friends in Boston.","pidgin":"I get plenty men dem for Boston","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.38.10.19"}}
+{"_id":{"$oid":"602885437b0253806a3c280b"},"english":"We can hear.","pidgin":"We fit hear","date":"14-02-2021","user":{"name":"Roudorf","ip":"10.38.10.19"}}
+{"_id":{"$oid":"6028aa9c4d0b6dd7356ca4ea"},"english":"You and I aren't like that.","pidgin":"You and me no dey so","date":"14-02-2021","user":{"name":"Bassey ","ip":"10.9.59.88"}}

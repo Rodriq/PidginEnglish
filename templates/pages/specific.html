@@ -1,0 +1,63 @@
+{% extends "layouts/layouts.html" %} {% block content%}
+
+<h3>Translated</h3>
+<hr>
+
+<strong>List of Translated Sentences on : {{date}}</strong> &nbsp;
+<span><button type="button" disabled class="btn btn-primary">
+        Translated Phrases <span class="badge bg-warning">{{count}}</span>
+</button>
+</span>
+<br>
+<br>
+
+<form action="{{url_for('specific')}}" method="post">
+    <input type="hidden" id="formatedDate">
+    <div class="form-group">
+        <label for="date">Enter Date</label>
+        <input type="date" id="date" name="date" placeholder="Enter date">
+        <small class="text-warning">Enter date to fetch translates</small>
+        <button type="submit" id="submitButton" class="btn btn-sm btn-info" onclick="fetchTranslate(this)">Fetch</button>
+    </div>
+</form>
+<br>
+<div class="text-center container-fluid">
+    <table class="table table-hover">
+        <thead class="table-info">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">English</th>
+                <th scope="col">Pidgin</th>
+                <th scope="col">Person</th>
+            </tr>
+        </thead>
+        <tbody id="displayTranslate">
+            {% for tran in translates %}
+            <tr>
+                <td scope="row">{{loop.index}}</td>
+                <td>{{tran.english}}</td>
+                <td>{{tran.pidgin}}</td>
+                <td>{{tran.user["name"]}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function fetchTranslate(e) {
+        if ($("#date").val()) {
+            console.log($("#date").val(), "onclick");
+            console.log(new Date($("#date").val()), "-----------------")
+            $("$formatedDate").val(($("#date").val()).replaceAll("-", ","))
+            console.log($("#formatedDate").val(), "***********")
+            e.disabled = true;
+            // console.log
+            $("#submitButton").text("fetching...")
+                // e.value = 'Sending…';
+            e.form.submit();
+        }
+    }
+</script>
+
+{% endblock %}

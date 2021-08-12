@@ -1,11 +1,15 @@
-{% extends "layouts/layouts.html" %} {% block content%}
+<!-- <link rel="stylesheet" href="{{url_for('static', filename = 'css/rating.css')}}" /> {% extends "layouts/layouts.html" %} {% block content%} -->
 
 <h3>Translated</h3>
-<hr>
+<hr />
 
-<strong>List of Translated Sentences</strong>
-<br>
-<br>
+<strong>List of Translated Sentences</strong> &nbsp;
+<span><button type="button" disabled class="btn btn-primary">
+    Translated Phrases <span class="badge bg-warning">{{count}}</span>
+</button>
+</span>
+<br />
+<br />
 <div class="text-center container-fluid">
     <table class="table table-hover">
         <thead class="table-info">
@@ -17,9 +21,18 @@
             </tr>
         </thead>
         <tbody id="displayTranslate">
-
+            {% for tran in translates %}
+            <tr>
+                <td scope="row">{{loop.index}}</td>
+                <td>{{tran.english}}</td>
+                <td>{{tran.pidgin}}</td>
+                <td>{{tran.user["name"]}}</td>
+            </tr>
+            {% endfor %}
         </tbody>
     </table>
 </div>
+<!-- <script src="{{url_for('static', filename = 'js/rating.js')}}"></script> -->
+
 
 {% endblock %}
