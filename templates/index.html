@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-{% extends "layouts/layouts.html" %} {% block content%}
-
+{% extends "layouts/lay_demo.html" %} {% block content%}
+<br><br><br>
+<br><br><br>
 <h3>Contribute Words</h3>
 <hr>
-
-<strong>Please Read the following English Sentences and Enter it's meaning in Pidgin</strong>
-<br>
-<br>
-<div class="text-center">
-    <div id="anime-card">
-        <div class="card border-info mb-3" style="max-width: 18rem;">
-            <div class="card-header bg-info">English Sentence</div>
-            <div class="card-body text-info text-center font-weight-bold">
-                <p class="card-text">{{ text }}
-                </p>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <strong>Please Read the following English Sentences and Enter it's meaning in Pidgin</strong>
+        <br>
+        <br>
+        <div class="text-center">
+            <div id="anime-card">
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-info">English Sentence</div>
+                    <div class="card-body text-info text-center font-weight-bold">
+                        <p class="card-text">{{ text }}
+                        </p>
+                    </div>
+                </div>
             </div>
+
         </div>
-    </div>
 
-</div>
-
-<form action="{{url_for('save')}}" method="post">
-    <input type="hidden" name="from" id="from" value="{{ text }}" id="name-position">
-    <input type="hidden" name="ip" id="ip" value="{{ ipAdress }}"> {% if user %}
-    <input type="hidden" name="user" id="user" value="{{ user }}"> {% else %}
-    <div class="form-group row" id="userInfo">
-        <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Name <small
+        <form action="{{url_for('save')}}" method="post">
+            <input type="hidden" name="from" id="from" value="{{ text }}" id="name-position">
+            <input type="hidden" name="ip" id="ip" value="{{ ipAdress }}"> {% if user %}
+            <input type="hidden" name="user" id="user" value="{{ user }}"> {% else %}
+            <div class="form-group row" id="userInfo">
+                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Name <small
                 class="text-muted">(Required Once)</small></label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control form-control-sm" id="user" name="user" placeholder="Enter Nick Name">
-            <small class="text-primary">You will be acknowleged for your Contributions</small>
-        </div>
-    </div>
-    {% endif %}
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">Enter Translation</label>
-        <textarea class="form-control" id="translated" name="to" rows="3" required></textarea>
-        <small class="text-warning">Please respect punctuation and <strong>NO</strong> use of shorthand.</small>
-    </div>
-    <button type="button" class="btn btn-sm btn-warning mb-1" id="nextWord">Skip</button> &nbsp; &nbsp;
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-sm" id="user" name="user" placeholder="Enter Nick Name">
+                    <small class="text-primary">You will be acknowleged for your Contributions</small>
+                </div>
+            </div>
+            {% endif %}
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Enter Translation</label>
+                <textarea class="form-control" id="translated" name="to" rows="3" required></textarea>
+                <small class="text-warning">Please respect punctuation and <strong>NO</strong> use of shorthand.</small>
+            </div>
+            <button type="button" class="btn btn-sm btn-warning mb-1" id="nextWord">Skip</button> &nbsp; &nbsp;
 
-    <button type="submit" id="submitButton" class="btn btn-lg btn-info" onClick="sendValue(this)">Next ></button>
+            <button type="submit" id="submitButton" class="btn btn-lg btn-info" onClick="sendValue(this)">Next ></button>
 
-</form>
+        </form>
+    </div>
+    <div class="col-md-4"></div>
+</div>
 <script>
     function sendValue(e) {
         if ($("#translated").val()) {

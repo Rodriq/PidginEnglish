@@ -1,4 +1,4 @@
-{% extends "layouts/layouts.html" %} {% block content%}
+{% extends "layouts/lay_demo.html" %} {% block content%}
 
 <h3>Try Model</h3>
 <hr />
@@ -14,7 +14,8 @@
     <div>
         <form action="{{url_for('translate')}}" method="post">
             <div class="row g-2">
-                <div class="col-md">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
                     <div class="form-floating">
                         <select class="form-select" name="from" id="fromLang" aria-label="Select from language">
                             <option selected>...</option>
@@ -27,7 +28,7 @@
                         <label for="fromLang">Translate From</label>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md-4">
                     <div class="form-floating">
                         <select class="form-select" id="toLang" name="to" aria-label="Select to language">
                             <option selected>Pidgin</option>
@@ -38,9 +39,13 @@
                         <label for="toLang">Translate To</label>
                     </div>
                 </div>
-            </div>
+                <div class="col-md-2"></div>
+
+            </div><br><br>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Enter Sentence</label>
                         <textarea class="form-control" id="translated" name="sentence" rows="3" required>{{sentence}}</textarea>
@@ -48,7 +53,7 @@
                         <!-- <small class="text-warning">Please respect punctuation and <strong>NO</strong> use of shorthand.</small> -->
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Translated Sentence</label>
                         <textarea disabled class="form-control" id="translated" name="sentence" rows="3" required>
@@ -57,6 +62,8 @@
                         <!-- <small class="text-warning">Please respect punctuation and <strong>NO</strong> use of shorthand.</small> -->
                     </div>
                 </div>
+                <div class="col-md-2"></div>
+
             </div>
             <br />
             <button type="submit" id="submitButton" class="btn btn-lg btn-info">

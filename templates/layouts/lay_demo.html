@@ -42,6 +42,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static', filename = 'images/icons/favicon-16x16.png')}}">
     <!-- <link rel="manifest" href="{{url_for('static', filename = 'images/icons/site.webmanifest')}}"> -->
 
+    <!-- PWA Features -->
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css')}}" />
 
     <!-- Favicons -->
     <link href="../../static/assets/img/favicon.png" rel="icon">
@@ -84,45 +88,43 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <!-- <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li> -->
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                    <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                        </ul>
-                    </li> -->
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="{{ url_for('index') }}">Try It Now</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('home') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('index') }}">Contribute</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                                                    <a class="nav-link active" href="{{ url_for('translated') }}">Translated Leaderboard</a>
+                                                </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('rate') }}">Rate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('try_model') }}"><button
+                                class="btn btn-secondary">Translate</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">Remark</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
                 </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-            <!-- .navbar -->
+
 
         </div>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+
+        </div>
+
     </header>
+    <div class="text-center">
 
-    <section>
-        <!-- End Hero -->
-
-        <main id="main">
-            <br> {% block content %}{% endblock %}
-        </main>
-    </section>
+        {% block content %}{% endblock %}
+    </div>
 
     <footer id="footer">
 
@@ -139,7 +141,23 @@
                 </div>
             </div>
         </div>
-
+        <div class="modal fade" id="installModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Install App</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body center">
+                        <h3><button type="button" class="btn btn-primary" href="#" id="installButton">Install
+                                PidginEnglish</button>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -147,7 +165,7 @@
                     <div class="col-lg-3 col-md-6 footer-contact">
                         <h3>PidginEnglish</h3>
                         <p>
-                            HIVC<br> Molyko, Buea<br> Cameroon <br><br>
+                            HIVC <br> Molyko, Buea<br> Cameroon <br><br>
                             <strong>Phone:</strong> +237 678 769 140<br>
                             <strong>Email:</strong> support@pidgin-english.tech<br>
                         </p>
@@ -221,6 +239,14 @@
 
     <!-- Template Main JS File -->
     <script src="../../static/assets/js/main.js"></script>
+
+    <script src="{{url_for('static', filename = 'js/jquery.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename = 'js/bootstrap.js')}}"></script>
+    <script src="{{url_for('static', filename = 'js/manipulate.js')}}"></script>
+    <script src="{{url_for('static', filename = 'js/rating.js')}}"></script>
+
 
 </body>
 
